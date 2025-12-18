@@ -1,5 +1,5 @@
 </main>
-<footer class="mt-auto">
+<footer>
   <div class="container">
     <div class="row">
       {% if informations or blog %}
@@ -49,18 +49,15 @@
     <hr>
     <p>{{ powered }}</p>
     <!--
-OpenCart is open source software and your free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
 Please donate via PayPal to donate@opencart.com
 //-->
   </div>
 </footer>
 </div>
 {{ cookie }}
-<script src="./assets/jquery/jquery-3.7.1.min.js" type="module"></script>
-<script src="./assets/bootstrap/js/bootstrap.bundle.min.js" type="module"></script>
-<script src="./catalog/view/javascript/opencart.js" type="module"></script>
-<script src="./catalog/view/javascript/common.js" type="module"></script>
+<script src="{{ bootstrap }}" type="text/javascript"></script>
 {% for script in scripts %}
-  <script src="./{{ script.href }}" type="module"></script>
+  <script src="{{ script.href }}" type="text/javascript"></script>
 {% endfor %}
 </body></html>

@@ -597,6 +597,8 @@ VALUES (1, 'AF', 'AFG', 1, 0, 1),
 -- Dumping data for table `oc_country_description`
 --
 
+-----------------------------------------------------------
+
 INSERT INTO `oc_country_description` (`country_id`, `language_id`, `name`)
 VALUES (1, 1, 'Afghanistan'),
        (2, 1, 'Albania'),
@@ -855,274 +857,13 @@ VALUES (1, 1, 'Afghanistan'),
 -----------------------------------------------------------
 
 --
--- Dumping data for table `oc_country_to_store`
---
-
-INSERT INTO `oc_country_to_store` (`country_id`, `store_id`)
-VALUES (1, 0),
-       (2, 0),
-       (3, 0),
-       (4, 0),
-       (5, 0),
-       (6, 0),
-       (7, 0),
-       (8, 0),
-       (9, 0),
-       (10, 0),
-       (11, 0),
-       (12, 0),
-       (13, 0),
-       (14, 0),
-       (15, 0),
-       (16, 0),
-       (17, 0),
-       (18, 0),
-       (19, 0),
-       (20, 0),
-       (21, 0),
-       (22, 0),
-       (23, 0),
-       (24, 0),
-       (25, 0),
-       (26, 0),
-       (27, 0),
-       (28, 0),
-       (29, 0),
-       (30, 0),
-       (31, 0),
-       (32, 0),
-       (33, 0),
-       (34, 0),
-       (35, 0),
-       (36, 0),
-       (37, 0),
-       (38, 0),
-       (39, 0),
-       (40, 0),
-       (41, 0),
-       (42, 0),
-       (43, 0),
-       (44, 0),
-       (45, 0),
-       (46, 0),
-       (47, 0),
-       (48, 0),
-       (49, 0),
-       (50, 0),
-       (51, 0),
-       (52, 0),
-       (53, 0),
-       (54, 0),
-       (55, 0),
-       (56, 0),
-       (57, 0),
-       (58, 0),
-       (59, 0),
-       (60, 0),
-       (61, 0),
-       (62, 0),
-       (63, 0),
-       (64, 0),
-       (65, 0),
-       (66, 0),
-       (67, 0),
-       (68, 0),
-       (69, 0),
-       (70, 0),
-       (71, 0),
-       (72, 0),
-       (74, 0),
-       (75, 0),
-       (76, 0),
-       (77, 0),
-       (78, 0),
-       (79, 0),
-       (80, 0),
-       (81, 0),
-       (82, 0),
-       (83, 0),
-       (84, 0),
-       (85, 0),
-       (86, 0),
-       (87, 0),
-       (88, 0),
-       (89, 0),
-       (90, 0),
-       (91, 0),
-       (92, 0),
-       (93, 0),
-       (94, 0),
-       (95, 0),
-       (96, 0),
-       (97, 0),
-       (98, 0),
-       (99, 0),
-       (100, 0),
-       (101, 0),
-       (102, 0),
-       (103, 0),
-       (104, 0),
-       (105, 0),
-       (106, 0),
-       (107, 0),
-       (108, 0),
-       (109, 0),
-       (110, 0),
-       (111, 0),
-       (112, 0),
-       (113, 0),
-       (114, 0),
-       (115, 0),
-       (116, 0),
-       (117, 0),
-       (118, 0),
-       (119, 0),
-       (120, 0),
-       (121, 0),
-       (122, 0),
-       (123, 0),
-       (124, 0),
-       (125, 0),
-       (126, 0),
-       (127, 0),
-       (128, 0),
-       (129, 0),
-       (130, 0),
-       (131, 0),
-       (132, 0),
-       (133, 0),
-       (134, 0),
-       (135, 0),
-       (136, 0),
-       (137, 0),
-       (138, 0),
-       (139, 0),
-       (140, 0),
-       (141, 0),
-       (142, 0),
-       (143, 0),
-       (144, 0),
-       (145, 0),
-       (146, 0),
-       (147, 0),
-       (148, 0),
-       (149, 0),
-       (150, 0),
-       (151, 0),
-       (152, 0),
-       (153, 0),
-       (154, 0),
-       (155, 0),
-       (156, 0),
-       (157, 0),
-       (158, 0),
-       (159, 0),
-       (160, 0),
-       (161, 0),
-       (162, 0),
-       (163, 0),
-       (164, 0),
-       (165, 0),
-       (166, 0),
-       (167, 0),
-       (168, 0),
-       (169, 0),
-       (170, 0),
-       (171, 0),
-       (172, 0),
-       (173, 0),
-       (174, 0),
-       (175, 0),
-       (176, 0),
-       (177, 0),
-       (178, 0),
-       (179, 0),
-       (180, 0),
-       (181, 0),
-       (182, 0),
-       (183, 0),
-       (184, 0),
-       (185, 0),
-       (186, 0),
-       (187, 0),
-       (188, 0),
-       (189, 0),
-       (190, 0),
-       (191, 0),
-       (192, 0),
-       (193, 0),
-       (194, 0),
-       (195, 0),
-       (196, 0),
-       (197, 0),
-       (198, 0),
-       (199, 0),
-       (200, 0),
-       (201, 0),
-       (202, 0),
-       (203, 0),
-       (204, 0),
-       (205, 0),
-       (206, 0),
-       (207, 0),
-       (208, 0),
-       (209, 0),
-       (210, 0),
-       (211, 0),
-       (212, 0),
-       (213, 0),
-       (214, 0),
-       (215, 0),
-       (216, 0),
-       (217, 0),
-       (218, 0),
-       (219, 0),
-       (220, 0),
-       (221, 0),
-       (222, 0),
-       (223, 0),
-       (224, 0),
-       (225, 0),
-       (226, 0),
-       (227, 0),
-       (228, 0),
-       (229, 0),
-       (230, 0),
-       (231, 0),
-       (232, 0),
-       (233, 0),
-       (234, 0),
-       (235, 0),
-       (237, 0),
-       (238, 0),
-       (239, 0),
-       (242, 0),
-       (243, 0),
-       (244, 0),
-       (245, 0),
-       (246, 0),
-       (247, 0),
-       (248, 0),
-       (249, 0),
-       (250, 0),
-       (251, 0),
-       (252, 0),
-       (253, 0),
-       (254, 0),
-       (255, 0),
-       (256, 0),
-       (257, 0);
-
------------------------------------------------------------
-
---
 -- Dumping data for table `oc_coupon`
 --
 
 INSERT INTO `oc_coupon` (`name`, `code`, `type`, `discount`, `logged`, `shipping`, `total`, `date_start`, `date_end`, `uses_total`, `uses_customer`, `status`, `date_added`)
-VALUES ('-10% Discount', '2222', 'P', '10.0000', 0, 0, '0.0000', '2014-01-01', '2020-01-01', 10, '10', 0, NOW()),
-       ('Free Shipping', '3333', 'P', '0.0000', 0, 1, '100.0000', '2014-01-01', '2014-02-01', 10, '10', 0, NOW()),
-       ('-10.00 Discount', '1111', 'F', '10.0000', 0, 0, '10.0000', '2014-01-01', '2020-01-01', 100000, '10000', 0, NOW());
+VALUES ('-10% Discount', '2222', 'P', '10.0000', 0, 0, '0.0000', '2014-01-01', '2020-01-01', 10, '10', 0, '2009-01-27 13:55:03'),
+       ('Free Shipping', '3333', 'P', '0.0000', 0, 1, '100.0000', '2014-01-01', '2014-02-01', 10, '10', 0, '2009-03-14 21:13:53'),
+       ('-10.00 Discount', '1111', 'F', '10.0000', 0, 0, '10.0000', '2014-01-01', '2020-01-01', 100000, '10000', 0, '2009-03-14 21:15:18');
 
 -----------------------------------------------------------
 
@@ -1131,12 +872,9 @@ VALUES ('-10% Discount', '2222', 'P', '10.0000', 0, 0, '0.0000', '2014-01-01', '
 --
 
 INSERT INTO `oc_cron` (`code`, `description`, `cycle`, `action`, `status`, `date_added`, `date_modified`)
-VALUES ('task', 'Processes tasks such as theme and static files generation, sending mails, etc..', 'minute', 'cron/task', 0, NOW(), NOW()),
-       ('currency', 'Updates currency conversion values.', 'day', 'cron/currency', 1, NOW(), NOW()),
-       ('gdpr', 'Deletes and send emails to customers who have requested their GPDR data to be deleted.', 'day', 'cron/gdpr', 1, NOW(), NOW()),
-       ('subscription', 'Processes subscriptions by creating new orders, charging customers and sending mails to customers telling them that their subscription has been processed.', 'day', 'cron/subscription', 0, NOW(), NOW()),
-       ('backup', 'Starts the backup process.', 'day', 'cron/backup', 0, NOW(), NOW()),
-       ('notification', 'Contacts the OpenCart server to see if there are any notifications such as new release.', 'week', 'cron/notification', 0, NOW(), NOW());
+VALUES ('currency', 'Updates currency conversion values.', 'day', 'cron/currency', 1, '2014-09-25 14:40:00', '2014-09-25 14:40:00'),
+       ('gdpr', 'Deletes and send emails to customers who have requested their GPDR data to be deleted.', 'day', 'cron/gdpr', 1, '2014-09-25 14:40:00', '2014-09-25 14:40:00'),
+       ('subscription', 'Processes subscriptions by creating new orders, charging customers and sending mails to customers telling them that their subscription has been processed.', 'day', 'cron/subscription', 0, '2014-09-25 14:40:00', '2014-09-25 14:40:00');
 
 -----------------------------------------------------------
 
@@ -1145,14 +883,14 @@ VALUES ('task', 'Processes tasks such as theme and static files generation, send
 --
 
 INSERT INTO `oc_currency` (`title`, `code`, `symbol_left`, `symbol_right`, `decimal_place`, `value`, `status`, `date_modified`)
-VALUES ('Pound Sterling', 'GBP', '£', '', '2', 0.61250001, 1, NOW()),
-       ('US Dollar', 'USD', '$', '', '2', 1.00000000, 1, NOW()),
-       ('Euro', 'EUR', '', '€', '2', 0.78460002, 1, NOW()),
-       ('Hong Kong Dollar', 'HKD', 'HK$', '', '2', 7.82224000, 0, NOW()),
-       ('Indian Rupee', 'INR', '₹', '', '2', 64.40000000, 0, NOW()),
-       ('Russian Ruble', 'RUB', '', '₽', '2', 56.40360000, 0, NOW()),
-       ('Chinese Yuan Renminbi', 'CNY', '¥', '', '2', 6.34510000, 0, NOW()),
-       ('Australian Dollar', 'AUD', '$', '', '2', 1.26544000, 0, NOW());
+VALUES ('Pound Sterling', 'GBP', '£', '', '2', 0.61250001, 1, '2014-09-25 14:40:00'),
+       ('US Dollar', 'USD', '$', '', '2', 1.00000000, 1, '2014-09-25 14:40:00'),
+       ('Euro', 'EUR', '', '€', '2', 0.78460002, 1, '2014-09-25 14:40:00'),
+       ('Hong Kong Dollar', 'HKD', 'HK$', '', '2', 7.82224000, 0, '2018-02-16 12:00:00'),
+       ('Indian Rupee', 'INR', '₹', '', '2', 64.40000000, 0, '2018-02-16 12:00:00'),
+       ('Russian Ruble', 'RUB', '', '₽', '2', 56.40360000, 0, '2018-02-16 12:00:00'),
+       ('Chinese Yuan Renminbi', 'CNY', '¥', '', '2', 6.34510000, 0, '2018-02-16 12:00:00'),
+       ('Australian Dollar', 'AUD', '$', '', '2', 1.26544000, 0, '2018-02-16 12:00:00');
 
 -----------------------------------------------------------
 
@@ -1371,52 +1109,6 @@ VALUES ('activity_customer_add', 'Adds new customer entry in the activity log.',
        ('activity_affiliate_edit', 'Adds edit affiliate entry in the activity log.', 'catalog/model/account/affiliate.editAffiliate/after', 'event/activity.editAffiliate', 1),
        ('activity_order_add', 'Adds new order entry in the activity log.', 'catalog/model/checkout/order.addHistory/before', 'event/activity.addHistory', 1),
        ('activity_return_add', 'Adds new return entry in the activity log.', 'catalog/model/account/returns.addReturn/after', 'event/activity.addReturn', 1),
-       ('article_add', 'Updates article data when a new article is added.', 'admin/model/cms/article.addArticle/after', 'event/article', 1),
-       ('article_edit', 'Updates article data when a article is edited.', 'admin/model/cms/article.editArticle/after', 'event/article', 1),
-       ('article_delete', 'Updates article data when a article is deleted.', 'admin/model/cms/article.deleteArticle/after', 'event/article', 1),
-       ('attribute_add', 'Updates attribute data when a new attribute is added.', 'admin/model/catalog/attribute.addAttribute/after', 'event/attribute', 1),
-       ('attribute_edit', 'Updates attribute data when a attribute is edited.', 'admin/model/catalog/attribute.editAttribute/after', 'event/attribute', 1),
-       ('attribute_delete', 'Updates attribute data when a attribute is deleted.', 'admin/model/catalog/attribute.deleteAttribute/after', 'event/attribute', 1),
-       ('attribute_group_add', 'Updates attribute group data when a new attribute group is added.', 'admin/model/catalog/attribute_group.addFilterGroup/after', 'event/attribute_group', 1),
-       ('attribute_group_edit', 'Updates attribute group data when a attribute group is edited.', 'admin/model/catalog/attribute_group.editFilterGroup/after', 'event/attribute_group', 1),
-       ('attribute_group_delete', 'Updates attribute group data when a attribute group is deleted.', 'admin/model/catalog/attribute_group.deleteFilterGroup/after', 'event/attribute_group', 1),
-       ('banner_add', 'Updates banner data when a new banner is added.', 'admin/model/design/banner.addBanner/after', 'event/banner', 1),
-       ('banner_edit', 'Updates banner data when a banner is edited.', 'admin/model/design/banner.editBanner/after', 'event/banner', 1),
-       ('banner_delete', 'Updates banner data when a banner is deleted.', 'admin/model/design/banner.deleteBanner/after', 'event/banner', 1),
-       ('category_add', 'Updates category data when a new category is added.', 'admin/model/catalog/category.addCategory/after', 'event/category', 1),
-       ('category_edit', 'Updates category data when a category is edited.', 'admin/model/catalog/category.editCategory/after', 'event/category', 1),
-       ('category_delete', 'Updates category data when a category is deleted.', 'admin/model/catalog/category.deleteCategory/after', 'event/category', 1),
-       ('country_add', 'Updates country data when a new country is added.', 'admin/model/localisation/country.addCountry/after', 'event/country', 1),
-       ('country_edit', 'Updates country data when a country is edited.', 'admin/model/localisation/country.editCountry/after', 'event/country', 1),
-       ('country_delete', 'Updates country data when a country is deleted.', 'admin/model/localisation/country.deleteCountry/after', 'event/country', 1),
-       ('currency_add', 'Updates currencies data when a new currency is added.', 'admin/model/localisation/currency.addCurrency/after', 'event/currency', 1),
-       ('currency_edit', 'Updates currencies data when a currency is edited.', 'admin/model/localisation/currency.editCurrency/after', 'event/currency', 1),
-       ('currency_delete', 'Updates currency data when a currency is deleted.', 'admin/model/localisation/currency.deleteCurrency/after', 'event/currency', 1),
-       ('currency_setting', 'Updates currencies data when settings are saved.', 'admin/model/setting/setting.editSetting/after', 'event/currency.refresh', 1),
-       ('custom_field_add', 'Updates custom field data when a new custom field is added.', 'admin/model/customer/custom_field.addCustomField/after', 'event/custom_field', 1),
-       ('custom_field_edit', 'Updates custom field data when a custom field is edited.', 'admin/model/customer/custom_field.editCustomField/after', 'event/custom_field', 1),
-       ('custom_field_delete', 'Updates custom field data when a custom field is deleted.', 'admin/model/customer/custom_field.deleteCustomField/after', 'event/custom_field', 1),
-       ('customer_group_add', 'Updates customer group data when a new customer group is added.', 'admin/model/customer/customer_group.addCustomerGroup/after', 'event/customer_group', 1),
-       ('customer_group_edit', 'Updates customer group data when a customer group is edited.', 'admin/model/customer/customer_group.editCustomerGroup/after', 'event/customer_group', 1),
-       ('customer_group_delete', 'Updates customer group data when a customer group is deleted.', 'admin/model/customer/customer_group.deleteCustomerGroup/after', 'event/customer_group', 1),
-       ('filter_add', 'Updates filter data when a new filter is added.', 'admin/model/catalog/filter.addFilter/after', 'event/filter', 1),
-       ('filter_edit', 'Updates filter data when a filter is edited.', 'admin/model/catalog/filter.editFilter/after', 'event/filter', 1),
-       ('filter_delete', 'Updates filter data when a filter is deleted.', 'admin/model/catalog/filter.deleteFilter/after', 'event/filter', 1),
-       ('filter_group_add', 'Updates filter group data when a new filter group is added.', 'admin/model/catalog/filter_group.addFilterGroup/after', 'event/filter_group', 1),
-       ('filter_group_edit', 'Updates filter group data when a filter group is edited.', 'admin/model/catalog/filter_group.editFilterGroup/after', 'event/filter_group', 1),
-       ('filter_group_delete', 'Updates filter group data when a filter group is deleted.', 'admin/model/catalog/filter_group.deleteFilterGroup/after', 'event/filter_group', 1),
-       ('information_add', 'Updates information data when a new information is added.', 'admin/model/catalog/information.addInformation/after', 'event/information', 1),
-       ('information_edit', 'Updates information data when a information is edited.', 'admin/model/catalog/information.editInformatione/after', 'event/information', 1),
-       ('information_delete', 'Updates information data when a information is deleted.', 'admin/model/catalog/information.deleteInformation/after', 'event/information', 1),
-       ('language_add', 'Updates language data when a new language is added.', 'admin/model/localisation/language.addLanguage/after', 'event/language', 1),
-       ('language_edit', 'Updates language data when a language is edited.', 'admin/model/localisation/language.editLanguage/after', 'event/language', 1),
-       ('language_delete', 'Updates language data when a language is deleted.', 'admin/model/localisation/language.deleteLanguage/after', 'event/language', 1),
-       ('length_class_add', 'Updates length class data when a new length class is added.', 'admin/model/localisation/length_class.addLengthClass/after', 'event/length_class', 1),
-       ('length_class_edit', 'Updates length class data when a length class is edited.', 'admin/model/localisation/length_class.editLengthClass/after', 'event/length_class', 1),
-       ('length_class_delete', 'Updates length class data when a length class is deleted.', 'admin/model/localisation/length_class.deleteLengthClass/after', 'event/length_class', 1),
-       ('manufacturer_add', 'Updates manufacturer data when a new manufacturer is added.', 'admin/model/catalog/manufacturer.addManufacturer/after', 'event/manufacturer', 1),
-       ('manufacturer_edit', 'Updates manufacturer data when a manufacturer is edited.', 'admin/model/catalog/manufacturer.editManufacturer/after', 'event/manufacturer', 1),
-       ('manufacturer_delete', 'Updates manufacturer data when a manufacturer is deleted.', 'admin/model/catalog/manufacturer.deleteManufacturer/after', 'event/manufacturer', 1),
        ('mail_customer_add', 'Sends mail to newly registered customers.', 'catalog/model/account/customer.addCustomer/after', 'mail/register', 1),
        ('mail_customer_alert', 'Sends alert mail to store owner when a new customer registers.', 'catalog/model/account/customer.addCustomer/after', 'mail/register.alert', 1),
        ('mail_customer_transaction', 'Sends mail to the customer when their transaction balance is updated.', 'catalog/model/account/customer.addTransaction/after', 'mail/transaction', 1),
@@ -1431,79 +1123,24 @@ VALUES ('activity_customer_add', 'Adds new customer entry in the activity log.',
        ('mail_gdpr_delete', 'Sends mail to customers to let them know their GDPR data has been deleted.', 'catalog/model/account/gdpr.editStatus/after', 'mail/gdpr.remove', 1),
        ('mail_review', 'Sends mail to store owner that a new review has been submitted.', 'catalog/model/catalog/review.addReview/after', 'mail/review', 1),
        ('mail_subscription', 'Sends mail to store owner that a new subscription has been created.', 'catalog/model/checkout/subscription.addSubscription/after', 'mail/subscription', 1),
-       ('mail_admin_gdpr', 'Sends approval or denial mail to customer who requested GDPR data export or deletion.', 'admin/model/customer/gdpr.editStatus/after', 'mail/gdpr', 1),
-       ('mail_admin_affiliate_approve', 'Sends mail to the affiliate when their account is approved.', 'admin/model/customer/customer_approval.approveAffiliate/after', 'mail/affiliate.approve', 1),
-       ('mail_admin_affiliate_deny', 'Sends mail to the affiliate when their account is denied.', 'admin/model/customer/customer_approval.denyAffiliate/after', 'mail/affiliate.deny', 1),
-       ('mail_admin_customer_approve', 'Sends mail to the customer when their account is approved.', 'admin/model/customer/customer_approval.approveCustomer/after', 'mail/customer.approve', 1),
-       ('mail_admin_customer_deny', 'Sends mail to the customer when their account is denied.', 'admin/model/customer/customer_approval.denyCustomer/after', 'mail/customer.deny', 1),
-       ('mail_admin_customer_transaction', 'Sends mail to the customer when their transaction balance is updated.', 'admin/model/customer/customer.addTransaction/after', 'mail/transaction', 1),
-       ('mail_admin_reward', 'Sends mail to the customer when their reward balance is updated.', 'admin/model/customer/customer.addReward/after', 'mail/reward', 1),
-       ('mail_admin_return', 'Sends mail to customer when their return status is changed.', 'admin/model/sale/returns.addHistory/after', 'mail/returns', 1),
-       ('mail_admin_user_forgotten', 'Sends mail to users who have forgotten their password.', 'admin/model/user/user.addToken/after', 'mail/forgotten', 1),
-       ('mail_admin_user_authorize', 'Sends mail login code to users email to authorize login from a new device.', 'admin/controller/common/authorize.send/after', 'mail/authorize', 1),
-       ('mail_admin_user_authorize_reset', 'Sends reset link to user who`s account is locked out after 3 wrong authorize code login attempts.', 'admin/model/user/user.addToken/after', 'mail/authorize.reset', 1),
-       ('option_add', 'Updates option data when a new option is added.', 'admin/model/catalog/option.addOption/after', 'event/option', 1),
-       ('option_edit', 'Updates option data when a option is edited.', 'admin/model/catalog/option.editOption/after', 'event/option', 1),
-       ('option_delete', 'Updates option data when a option is deleted.', 'admin/model/catalog/option.deleteOption/after', 'event/option', 1),
-       ('order_status_add', 'Updates order status data when a new order status is added.', 'admin/model/localisation/order_status.addOrderStatus/after', 'event/order_status', 1),
-       ('order_status_edit', 'Updates order status data when a order status is edited.', 'admin/model/localisation/order_status.editOrderStatus/after', 'event/order_status', 1),
-       ('order_status_delete', 'Updates order status data when a order status is deleted.', 'admin/model/localisation/order_status.deleteOrderStatus/after', 'event/order_status', 1),
-       ('product_add', 'Updates product data when a new product is added.', 'admin/model/catalog/product.addProduct/after', 'event/product', 1),
-       ('product_edit', 'Updates product data when a product is edited.', 'admin/model/catalog/product.editProduct/after', 'event/product', 1),
-       ('product_delete', 'Updates product data when a product is deleted.', 'admin/model/catalog/product.deleteProduct/after', 'event/product', 1),
-       ('return_action_add', 'Updates return action data when a new return action is added.', 'admin/model/localisation/return_action.addReturnAction/after', 'event/return_action', 1),
-       ('return_action_edit', 'Updates return action data when a return action is edited.', 'admin/model/localisation/return_action.editReturnAction/after', 'event/return_action', 1),
-       ('return_action_delete', 'Updates return action data when a return action is deleted.', 'admin/model/localisation/return_action.deleteReturnAction/after', 'event/return_action', 1),
-       ('return_reason_add', 'Updates return reason data when a new return reason is added.', 'admin/model/localisation/return_reason.addReturnReason/after', 'event/return_reason', 1),
-       ('return_reason_edit', 'Updates return reason data when a return reason is edited.', 'admin/model/localisation/return_reason.editReturnReason/after', 'event/return_reason', 1),
-       ('return_reason_delete', 'Updates return reason data when a return reason is deleted.', 'admin/model/localisation/return_reason.deleteReturnReason/after', 'event/return_reason', 1),
-       ('return_status_add', 'Updates return status data when a new return status is added.', 'admin/model/localisation/return_status.addReturnStatus/after', 'event/return_status', 1),
-       ('return_status_edit', 'Updates return status data when a return status is edited.', 'admin/model/localisation/return_status.editReturnStatus/after', 'event/return_status', 1),
-       ('return_status_delete', 'Updates return status data when a return status is deleted.', 'admin/model/localisation/return_status.deleteReturnStatus/after', 'event/return_status', 1),
-       ('ssr_home', 'Create a static home page.', 'catalog/controller/common/home/after', 'event/ssr', 1),
-       ('ssr_article', 'Create a static article page.', 'catalog/controller/cms/article/after', 'event/ssr', 1),
-       ('ssr_topic', 'Create a static topic page.', 'catalog/controller/cms/topic/after', 'event/ssr', 1),
-       ('ssr_category', 'Create a static category page.', 'catalog/controller/product/category/after', 'event/ssr', 1),
-       ('ssr_manufacturer', 'Create a static manufacturer page.', 'catalog/controller/product/manufacturer/after', 'event/ssr', 1),
-       ('ssr_product', 'Create a static product page.', 'catalog/controller/product/product/after', 'event/ssr', 1),
-       ('ssr_special', 'Create a static special page.', 'catalog/controller/product/special/after', 'event/ssr', 1),
-       ('ssr_search', 'Create a static search page.', 'catalog/controller/product/search/after', 'event/ssr', 1),
-       ('ssr_information', 'Create a static information page.', 'catalog/controller/information/information/after', 'event/ssr', 1),
-       ('ssr_sitemap', 'Create a static sitemap page.', 'catalog/controller/information/sitemap/after', 'event/ssr', 1),
        ('statistics_review_add', 'Updates review statistics when a new review is added.', 'catalog/model/catalog/review.addReview/after', 'event/statistics.addReview', 1),
        ('statistics_return_add', 'Updates return statistics when a new return is added.', 'catalog/model/account/returns.addReturn/after', 'event/statistics.addReturn', 1),
        ('statistics_return_delete', 'Updates return statistics when a return is deleted.', 'admin/model/sale/returns.deleteReturn/after', 'event/statistics.deleteReturn', 1),
        ('statistics_order_history', 'Updates order status statistics when a order has been updated.', 'catalog/model/checkout/order.addHistory/before', 'event/statistics.addHistory', 1),
-       ('stock_status_add', 'Updates stock status data when a new stock status is added.', 'admin/model/localisation/stock_status.addStockStatus/after', 'event/stock_status', 1),
-       ('stock_status_edit', 'Updates stock status data when a stock status is edited.', 'admin/model/localisation/stock_status.editStockStatus/after', 'event/stock_status', 1),
-       ('stock_status_delete', 'Updates stock status data when a stock status is deleted.', 'admin/model/localisation/stock_status.deleteStockStatus/after', 'event/stock_status', 1),
-       ('setting_edit', 'Updates setting data when a new store is added.', 'admin/model/setting/setting.editSetting/after', 'event/store', 1),
-       ('store_delete', 'Updates store data when a store is deleted.', 'admin/model/setting/store.deleteStore/after', 'event/store', 1),
-       ('subscription_status_add', 'Updates subscription status data when a new subscription status is added.', 'admin/model/localisation/subscription_status.addSubscriptionStatus/after', 'event/subscription_status', 1),
-       ('subscription_edit', 'Updates subscription status data when a subscription status is edited.', 'admin/model/localisation/subscription_status.editSubscriptionStatus/after', 'event/subscription_status', 1),
-       ('subscription_delete', 'Updates subscription status data when a subscription status is deleted.', 'admin/model/localisation/subscription_status.deleteSubscriptionStatus/after', 'event/subscription_status', 1),
-       ('tax_class_add', 'Updates tax class data when a new tax class is added.', 'admin/model/localisation/tax_class.addTaxClass/after', 'event/tax', 1),
-       ('tax_class_edit', 'Updates tax class data when a tax class is edited.', 'admin/model/localisation/tax_class.editTaxClass/after', 'event/tax', 1),
-       ('tax_class_delete', 'Updates tax class data when a tax class is deleted.', 'admin/model/localisation/tax_class.deleteTaxClass/after', 'event/tax', 1),
-       ('tax_rate_add', 'Updates tax rate data when a new tax rate is added.', 'admin/model/localisation/tax_rate.addTaxRate/after', 'event/tax', 1),
-       ('tax_rate_edit', 'Updates tax rate data when a tax rate is edited.', 'admin/model/localisation/tax_rate.editTaxRate/after', 'event/tax', 1),
-       ('tax_rate_delete', 'Updates tax rate data when a tax rate is deleted.', 'admin/model/localisation/tax_rate.deleteTaxRate/after', 'event/tax', 1),
-       ('theme_add', 'Updates theme data when a new theme is added.', 'admin/model/design/theme.addTheme/after', 'event/theme', 1),
-       ('theme_edit', 'Updates theme data when a theme is edited.', 'admin/model/design/theme.editTheme/after', 'event/theme', 1),
-       ('theme_delete', 'Updates theme data when a theme is deleted.', 'admin/model/design/theme.deleteTheme/after', 'event/theme', 1),
-       ('topic_add', 'Updates topic data when a new topic is added.', 'admin/model/cms/topic.addTopic/after', 'event/topic', 1),
-       ('topic_edit', 'Updates topic data when a topic is edited.', 'admin/model/cms/topic.editTopic/after', 'event/topic', 1),
-       ('topic_delete', 'Updates topic data when a topic is deleted.', 'admin/model/cms/topic.deleteTopic/after', 'event/topic', 1),
-       ('translation_add', 'Updates translation data when a new translation is added.', 'admin/model/design/translation.addTranslation/after', 'event/translation', 1),
-       ('translation_edit', 'Updates translation data when a translation is edited.', 'admin/model/design/translation.editTranslation/after', 'event/translation', 1),
-       ('translation_delete', 'Updates translation data when a translation is deleted.', 'admin/model/design/translation.deleteTranslation/after', 'event/translation', 1),
-       ('weight_class_add', 'Updates weight class data when a new weight class is added.', 'admin/model/localisation/weight_class.addWeightClass/after', 'event/weight_class', 1),
-       ('weight_class_edit', 'Updates weight class data when a weight class is edited.', 'admin/model/localisation/weight_class.editWeightClass/after', 'event/weight_class', 1),
-       ('weight_class_delete', 'Updates weight class data when a weight class is deleted.', 'admin/model/localisation/weight_class.deleteWeightClass/after', 'event/weight_class', 1),
-       ('zone_add', 'Updates zone data when a new zone is added.', 'admin/model/localisation/zone.addZone/after', 'event/country', 1),
-       ('zone_edit', 'Updates zone data when a zone is edited.', 'admin/model/localisation/zone.editZone/after', 'event/country', 1),
-       ('zone_delete', 'Updates zone data when a zone is deleted.', 'admin/model/localisation/zone.deleteZone/after', 'event/country', 1);
-
+       ('admin_currency_add', 'Updates currencies when a new currency is added.', 'admin/model/localisation/currency.addCurrency/after', 'event/currency', 1),
+       ('admin_currency_edit', 'Updates currencies when a currency is edited.', 'admin/model/localisation/currency.editCurrency/after', 'event/currency', 1),
+       ('admin_currency_setting', 'Updates currencies when settings are saved.', 'admin/model/setting/setting.editSetting/after', 'event/currency', 1),
+       ('admin_mail_gdpr', 'Sends approval or denial mail to customer who requested GDPR data export or deletion.', 'admin/model/customer/gdpr.editStatus/after', 'mail/gdpr', 1),
+       ('admin_mail_affiliate_approve', 'Sends mail to the affiliate when their account is approved.', 'admin/model/customer/customer_approval.approveAffiliate/after', 'mail/affiliate.approve', 1),
+       ('admin_mail_affiliate_deny', 'Sends mail to the affiliate when their account is denied.', 'admin/model/customer/customer_approval.denyAffiliate/after', 'mail/affiliate.deny', 1),
+       ('admin_mail_customer_approve', 'Sends mail to the customer when their account is approved.', 'admin/model/customer/customer_approval.approveCustomer/after', 'mail/customer.approve', 1),
+       ('admin_mail_customer_deny', 'Sends mail to the customer when their account is denied.', 'admin/model/customer/customer_approval.denyCustomer/after', 'mail/customer.deny', 1),
+       ('admin_mail_customer_transaction', 'Sends mail to the customer when their transaction balance is updated.', 'admin/model/customer/customer.addTransaction/after', 'mail/transaction', 1),
+       ('admin_mail_reward', 'Sends mail to the customer when their reward balance is updated.', 'admin/model/customer/customer.addReward/after', 'mail/reward', 1),
+       ('admin_mail_return', 'Sends mail to customer when their return status is changed.', 'admin/model/sale/returns.addHistory/after', 'mail/returns', 1),
+       ('admin_mail_user_forgotten', 'Sends mail to users who have forgotten their password.', 'admin/model/user/user.addToken/after', 'mail/forgotten', 1),
+       ('admin_mail_user_authorize', 'Sends mail login code to users email to authorize login from a new device.', 'admin/controller/common/authorize.send/after', 'mail/authorize', 1),
+       ('admin_mail_user_authorize_reset', 'Sends reset link to user who`s account is locked out after 3 wrong authorize code login attempts.', 'admin/model/user/user.addToken/after', 'mail/authorize.reset', 1);
 
 -----------------------------------------------------------
 
@@ -1562,7 +1199,7 @@ VALUES ('opencart', 'currency', 'ecb'),
 --
 
 INSERT INTO `oc_extension_install` (`extension_install_id`, `extension_id`, `extension_download_id`, `name`, `description`, `code`, `version`, `author`, `link`, `status`, `date_added`)
-VALUES (1, 0, 0, 'OpenCart Default Extensions', 'This extension contains all the default extensions for modules, currencies, payment methods, shipping methods, anti-fraud, themes, order totals and reports.', 'opencart', '1.0', 'OpenCart Ltd', 'https://www.opencart.com', 1, NOW());
+VALUES (1, 0, 0, 'OpenCart Default Extensions', 'This extension contains all the default extensions for modules, currencies, payment methods, shipping methods, anti-fraud, themes, order totals and reports.', 'opencart', '1.0', 'OpenCart Ltd', 'http://www.opencart.com', 1, '2020-08-29 15:35:39');
 
 -----------------------------------------------------------
 
@@ -2095,8 +1732,8 @@ VALUES (1, 6, 0, 'account/%'),
        (12, 5, 0, 'product/manufacturer'),
        (13, 12, 0, 'product/compare'),
        (14, 13, 0, 'product/search'),
-       (15, 14, 0, 'cms/topic'),
-       (16, 14, 0, 'cms/article');
+       (15, 14, 0, 'cms/blog'),
+       (16, 14, 0, 'cms/blog.info');
 
 -----------------------------------------------------------
 
@@ -2126,33 +1763,13 @@ VALUES (1, 1, 'Centimeter', 'cm'),
 -- Dumping data for table `oc_manufacturer`
 --
 
-INSERT INTO `oc_manufacturer` (`manufacturer_id`, `image`, `sort_order`)
-VALUES (5, 'catalog/demo/htc_logo.jpg', 0),
-       (6, 'catalog/demo/palm_logo.jpg', 0),
-       (7, 'catalog/demo/hp_logo.jpg', 0),
-       (8, 'catalog/demo/apple_logo.jpg', 0),
-       (9, 'catalog/demo/canon_logo.jpg', 0),
-       (10, 'catalog/demo/sony_logo.jpg', 0);
-
------------------------------------------------------------
-
---
--- Dumping data for table `oc_manufacturer_description`
---
-
-INSERT INTO `oc_manufacturer_description` (`manufacturer_id`, `language_id`, `name`, `description`, `meta_title`, `meta_description`, `meta_keyword`)
-VALUES (5, 1, 'HTC', NULL, NULL, NULL, NULL),
-       (5, 25, 'HTC', NULL, NULL, NULL, NULL),
-       (6, 1, 'Palm', NULL, NULL, NULL, NULL),
-       (6, 25, 'Palm', NULL, NULL, NULL, NULL),
-       (7, 1, 'Hewlett-Packard', NULL, NULL, NULL, NULL),
-       (7, 25, 'Hewlett-Packard', NULL, NULL, NULL, NULL),
-       (8, 1, 'Apple', NULL, NULL, NULL, NULL),
-       (8, 25, 'Apple', NULL, NULL, NULL, NULL),
-       (9, 1, 'Canon', NULL, NULL, NULL, NULL),
-       (9, 25, 'Canon', NULL, NULL, NULL, NULL),
-       (10, 1, 'Sony', NULL, NULL, NULL, NULL),
-       (10, 25, 'Sony', NULL, NULL, NULL, NULL);
+INSERT INTO `oc_manufacturer` (`manufacturer_id`, `name`, `image`, `sort_order`)
+VALUES (5, 'HTC', 'catalog/demo/htc_logo.jpg', 0),
+       (6, 'Palm', 'catalog/demo/palm_logo.jpg', 0),
+       (7, 'Hewlett-Packard', 'catalog/demo/hp_logo.jpg', 0),
+       (8, 'Apple', 'catalog/demo/apple_logo.jpg', 0),
+       (9, 'Canon', 'catalog/demo/canon_logo.jpg', 0),
+       (10, 'Sony', 'catalog/demo/sony_logo.jpg', 0);
 
 -----------------------------------------------------------
 
@@ -2171,185 +1788,14 @@ VALUES (5, 0),
 -----------------------------------------------------------
 
 --
--- Dumping data for table `oc_menu`
---
-
-INSERT INTO `oc_menu` (`menu_id`, `code`, `type`, `route`, `parent`, `sort_order`)
-VALUES (1, 'category', 'link', 'catalog/category', 'catalog', 1),
-       (2, 'product', 'link', 'catalog/product', 'catalog', 2),
-       (3, 'subscription_plan', 'link', 'catalog/subscription_plan', 'catalog', 3),
-       (4, 'filter', 'dropdown', '', 'catalog', 4),
-       (5, 'filter_2', 'link', 'catalog/filter', 'filter', 1),
-       (6, 'filter_group', 'link', 'catalog/filter_group', 'filter', 2),
-       (7, 'attribute', 'dropdown', '', 'catalog', 5),
-       (8, 'attribute_2', 'link', 'catalog/attribute', 'attribute', 1),
-       (9, 'attribute_group', 'link', 'catalog/attribute_group', 'attribute', 2),
-       (10, 'option', 'link', 'catalog/option', 'catalog', 6),
-       (11, 'manufacturer', 'link', 'catalog/manufacturer', 'catalog', 7),
-       (12, 'download', 'link', 'catalog/download', 'catalog', 8),
-       (13, 'review', 'link', 'catalog/review', 'catalog', 9),
-       (14, 'information', 'link', 'catalog/information', 'catalog', 10),
-       (15, 'topic', 'link', 'cms/topic', 'cms', 1),
-       (16, 'article', 'link', 'cms/article', 'cms', 2),
-       (17, 'comment', 'link', 'cms/comment', 'cms', 3),
-       (18, 'antispam', 'link', 'cms/antispam', 'cms', 4),
-       (19, 'marketplace', 'link', 'marketplace/marketplace', 'extension', 1),
-       (20, 'installer', 'link', 'marketplace/installer', 'extension', 2),
-       (21, 'extension_2', 'link', 'marketplace/extension', 'extension', 3),
-       (23, 'task', 'link', 'marketplace/task', 'extension', 4),
-       (24, 'event', 'link', 'marketplace/event', 'extension', 5),
-       (25, 'startup', 'link', 'marketplace/startup', 'extension', 6),
-       (26, 'cron', 'link', 'marketplace/cron', 'extension', 7),
-       (27, 'layout', 'link', 'design/layout', 'design', 1),
-       (28, 'theme', 'link', 'design/theme', 'design', 2),
-       (29, 'translation', 'link', 'design/translation', 'design', 3),
-       (30, 'banner', 'link', 'design/banner', 'design', 4),
-       (31, 'seo_url', 'link', 'design/seo_url', 'design', 5),
-       (32, 'seo_regex', 'link', 'design/seo_regex', 'design', 6),
-       (33, 'order', 'link', 'sale/order', 'sale', 1),
-       (34, 'subscription', 'link', 'sale/subscription', 'sale', 2),
-       (35, 'return', 'link', 'sale/returns', 'sale', 3),
-       (36, 'customer_2', 'link', 'customer/customer', 'customer', 1),
-       (37, 'customer_group', 'link', 'customer/customer_group', 'customer', 2),
-       (38, 'customer_approval', 'link', 'customer/customer_approval', 'customer', 3),
-       (39, 'gdpr', 'link', 'customer/gdpr', 'customer', 4),
-       (40, 'custom_field', 'link', 'customer/custom_field', 'customer', 5),
-       (41, 'affiliate', 'link', 'marketing/affiliate', 'marketing', 1),
-       (42, 'marketing_2', 'link', 'marketing/marketing', 'marketing', 2),
-       (43, 'coupon', 'link', 'marketing/coupon', 'marketing', 3),
-       (44, 'contact', 'link', 'marketing/contact', 'marketing', 4),
-       (45, 'setting', 'link', 'setting/store', 'system', 1),
-       (46, 'user', 'dropdown', '', 'system', 2),
-       (47, 'user_2', 'link', 'user/user', 'user', 1),
-       (48, 'user_permission', 'link', 'user/user_permission', 'user', 2),
-       (49, 'api', 'link', 'user/api', 'user', 3),
-       (50, 'localisation', 'dropdown', '', 'system', 3),
-       (51, 'location', 'link', 'localisation/location', 'localisation', 1),
-       (52, 'language', 'link', 'localisation/language', 'localisation', 2),
-       (53, 'currency', 'link', 'localisation/currency', 'localisation', 3),
-       (54, 'identifier', 'link', 'localisation/identifier', 'localisation', 4),
-       (55, 'stock_status', 'link', 'localisation/stock_status', 'localisation', 5),
-       (56, 'order_status', 'link', 'localisation/order_status', 'localisation', 6),
-       (57, 'subscription_status', 'link', 'localisation/subscription_status', 'localisation', 7),
-       (58, 'return_2', 'dropdown', '', 'localisation', 8),
-       (59, 'return_status', 'link', 'localisation/return_status', 'return_2', 2),
-       (60, 'return_action', 'link', 'localisation/return_action', 'return_2', 1),
-       (61, 'return_reason', 'link', 'localisation/return_reason', 'return_2', 3),
-       (62, 'country', 'link', 'localisation/country', 'localisation', 9),
-       (63, 'zone', 'link', 'localisation/zone', 'localisation', 10),
-       (64, 'geo_zone', 'link', 'localisation/geo_zone', 'localisation', 11),
-       (65, 'tax', 'dropdown', '', 'localisation', 12),
-       (66, 'tax_class', 'link', 'localisation/tax_class', 'tax', 1),
-       (67, 'tax_rate', 'link', 'localisation/tax_rate', 'tax', 2),
-       (68, 'length_class', 'link', 'localisation/length_class', 'localisation', 13),
-       (69, 'weight_class', 'link', 'localisation/weight_class', 'localisation', 14),
-       (70, 'address_format', 'link', 'localisation/address_format', 'localisation', 15),
-       (71, 'maintenance', 'dropdown', '', 'system', 4),
-       (72, 'menu', 'link', 'tool/menu', 'maintenance', 1),
-       (73, 'upgrade', 'link', 'tool/upgrade', 'maintenance', 2),
-       (74, 'backup', 'link', 'tool/backup', 'maintenance', 3),
-       (75, 'upload', 'link', 'tool/upload', 'maintenance', 4),
-       (76, 'log', 'link', 'tool/log', 'maintenance', 5),
-       (77, 'report_2', 'link', 'report/report', 'report', 1),
-       (78, 'online', 'link', 'report/online', 'report', 2);
-
------------------------------------------------------------
-
---
--- Dumping data for table `oc_menu_description`
---
-
-INSERT INTO `oc_menu_description` (`menu_id`, `language_id`, `name`)
-VALUES (1, 1, 'Categories'),
-       (2, 1, 'Products'),
-       (3, 1, 'Subscription Plan'),
-       (4, 1, 'Filters'),
-       (5, 1, 'Filters'),
-       (6, 1, 'Filter Groups'),
-       (7, 1, 'Attributes'),
-       (8, 1, 'Attributes'),
-       (9, 1, 'Attribute Group'),
-       (10, 1, 'Options'),
-       (11, 1, 'Manufacturers'),
-       (12, 1, 'Downloads'),
-       (13, 1, 'Reviews'),
-       (14, 1, 'Information'),
-       (15, 1, 'Topics'),
-       (16, 1, 'Article'),
-       (17, 1, 'Comments'),
-       (18, 1, 'Anti-Spam'),
-       (19, 1, 'Marketplace'),
-       (20, 1, 'Installer'),
-       (21, 1, 'Extensions'),
-       (22, 1, 'Static Site Rendering'),
-       (23, 1, 'Tasks'),
-       (24, 1, 'Events'),
-       (25, 1, 'Startup'),
-       (26, 1, 'CRON Jobs'),
-       (27, 1, 'Layouts'),
-       (28, 1, 'Theme Editor'),
-       (29, 1, 'Translation'),
-       (30, 1, 'Banner'),
-       (31, 1, 'SEO URL'),
-       (32, 1, 'SEO Regex'),
-       (33, 1, 'Orders'),
-       (34, 1, 'Subscription'),
-       (35, 1, 'Returns'),
-       (36, 1, 'Customers'),
-       (37, 1, 'Customer Groups'),
-       (38, 1, 'Customer Approvals'),
-       (39, 1, 'GDPR'),
-       (40, 1, 'Custom Field'),
-       (41, 1, 'Affiliate'),
-       (42, 1, 'Marketing'),
-       (43, 1, 'Coupons'),
-       (44, 1, 'Mail'),
-       (45, 1, 'Settings'),
-       (46, 1, 'Users'),
-       (47, 1, 'Users'),
-       (48, 1, 'User Groups'),
-       (49, 1, 'API'),
-       (50, 1, 'Localisation'),
-       (51, 1, 'Store Locations'),
-       (52, 1, 'Language'),
-       (53, 1, 'Currencies'),
-       (54, 1, 'Identifier'),
-       (55, 1, 'Stock Status'),
-       (56, 1, 'Order Status'),
-       (57, 1, 'Subscription Status'),
-       (58, 1, 'Returns'),
-       (59, 1, 'Return Statuses'),
-       (60, 1, 'Return Actions'),
-       (61, 1, 'Return Reasons'),
-       (62, 1, 'Countries'),
-       (63, 1, 'Zones'),
-       (64, 1, 'Geo Zones'),
-       (65, 1, 'Taxes'),
-       (66, 1, 'Tax Classes'),
-       (67, 1, 'Tax Rates'),
-       (68, 1, 'Length Classes'),
-       (69, 1, 'Weight Classes'),
-       (70, 1, 'Address Format'),
-       (71, 1, 'Maintenance'),
-       (72, 1, 'Admin Menu'),
-       (73, 1, 'Upgrade'),
-       (74, 1, 'Backup &amp; Restore'),
-       (75, 1, 'Uploads'),
-       (76, 1, 'Error Log'),
-       (77, 1, 'Reports'),
-       (78, 1, 'Who\'s Online');
-
------------------------------------------------------------
-
---
 -- Dumping data for table `oc_module`
 --
 
 INSERT INTO `oc_module` (`module_id`, `name`, `code`, `setting`)
-VALUES (1, 'Category Banner', 'opencart.banner', '{"name":"Category Banner", "banner_id":"6", "effect":"fade", "items":"1", "controls":"0", "indicators":"0", "interval":"5000", "width":"200", "height":"180", "status":"1"}'),
-       (2, 'Featured', 'opencart.featured', '{"name":"Featured", "product_name":"", "product":["43", "40", "42", "30"], "axis":"horizontal", "limit":"4", "width":"200", "height":"200", "status":"1"}'),
-       (3, 'Homepage Slideshow', 'opencart.banner', '{"name":"Homepage Slideshow", "banner_id":"7", "effect":"slide", "items":"1", "controls":"1", "indicators":"1", "interval":"5000", "width":"1140", "height":"380", "status":"1"}'),
-       (4, 'Homepage Manufacturers', 'opencart.banner', '{"name":"Homepage Manufacturers", "banner_id":"8", "effect":"slide", "items":"5", "controls":"1", "indicators":"1", "interval":"5000", "width":"130", "height":"100", "status":"1"}');
+VALUES (1, 'Category Banner', 'opencart.banner', '{"name":"Category Banner","banner_id":"6","effect":"fade","items":"1","controls":"0","indicators":"0","interval":"5000","width":"200","height":"180","status":"1"}'),
+       (2, 'Featured', 'opencart.featured', '{"name":"Featured","product_name":"","product":["43","40","42","30"],"axis":"horizontal","limit":"4","width":"200","height":"200","status":"1"}'),
+       (3, 'Homepage Slideshow', 'opencart.banner', '{"name":"Homepage Slideshow","banner_id":"7","effect":"slide","items":"1","controls":"1","indicators":"1","interval":"5000","width":"1140","height":"380","status":"1"}'),
+       (4, 'Homepage Manufacturers', 'opencart.banner', '{"name":"Homepage Manufacturers","banner_id":"8","effect":"slide","items":"5","controls":"1","indicators":"1","interval":"5000","width":"130","height":"100","status":"1"}');
 
 -----------------------------------------------------------
 
@@ -2385,8 +1831,7 @@ VALUES (1, 1, 'Radio'),
        (7, 1, 'File'),
        (5, 1, 'Select'),
        (9, 1, 'Time'),
-       (10, 1, 'Date &amp;
-Time'),
+       (10, 1, 'Date &amp; Time'),
        (12, 1, 'Delivery Date'),
        (11, 1, 'Size');
 
@@ -2421,19 +1866,15 @@ VALUES (43, 1, '', 3),
 INSERT INTO `oc_option_value_description` (`option_value_id`, `language_id`, `option_id`, `name`)
 VALUES (43, 1, 1, 'Large'),
        (32, 1, 1, 'Small'),
-       (45, 1, 2, 'Checkbox 4
-'),
-       (44, 1, 2, 'Checkbox 3
-'),
+       (45, 1, 2, 'Checkbox 4'),
+       (44, 1, 2, 'Checkbox 3'),
        (31, 1, 1, 'Medium'),
        (42, 1, 5, 'Yellow'),
        (41, 1, 5, 'Green'),
        (39, 1, 5, 'Red'),
        (40, 1, 5, 'Blue'),
-       (23, 1, 2, 'Checkbox 1
-'),
-       (24, 1, 2, 'Checkbox 2
-'),
+       (23, 1, 2, 'Checkbox 1'),
+       (24, 1, 2, 'Checkbox 2'),
        (48, 1, 11, 'Large'),
        (47, 1, 11, 'Medium'),
        (46, 1, 11, 'Small');
@@ -2466,86 +1907,26 @@ VALUES (2, 1, 'Processing'),
 -- Dumping data for table `oc_product`
 --
 
-INSERT INTO `oc_product` (`product_id`, `master_id`, `model`, `location`, `variant`, `override`, `quantity`, `stock_status_id`, `image`, `manufacturer_id`, `shipping`, `price`, `points`, `tax_class_id`, `date_available`, `weight`, `weight_class_id`, `length`, `width`, `height`, `length_class_id`, `subtract`, `minimum`, `rating`, `sort_order`, `status`, `date_added`, `date_modified`)
-VALUES (28, 0, 'Product 1
-', '', '', '', 939, 7, 'catalog/demo/htc_touch_hd_1.jpg', 5, 1, 100.0000, 200, 9, '
-2009-02-03
-', 146.40000000, 2, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 0, 0, 1, NOW(), NOW()),
-       (29, 0, 'Product 2
-', '', '', '', 999, 6, 'catalog/demo/palm_treo_pro_1.jpg', 6, 1, 279.9900, 0, 9, '
-2009-02-03
-', 133.00000000, 2, 0.00000000, 0.00000000, 0.00000000, 3, 1, 1, 0, 0, 1, NOW(), NOW()),
-       (30, 0, 'Product 3
-', '', '', '', 7, 6, 'catalog/demo/canon_eos_5d_1.jpg', 9, 1, 100.0000, 0, 9, '
-2009-02-03
-', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 0, 0, 1, NOW(), NOW()),
-       (31, 0, 'Product 4
-', '', '', '', 1000, 6, 'catalog/demo/nikon_d300_1.jpg', 0, 1, 80.0000, 0, 9, '
-2009-02-03
-', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 3, 1, 1, 0, 0, 1, NOW(), NOW()),
-       (32, 0, 'Product 5
-', '', '', '', 999, 6, 'catalog/demo/ipod_touch_1.jpg', 8, 1, 100.0000, 0, 9, '
-2009-02-03
-', 5.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 0, 0, 1, NOW(), NOW()),
-       (33, 0, 'Product 6
-', '', '', '', 1000, 6, 'catalog/demo/samsung_syncmaster_941bw.jpg', 0, 1, 200.0000, 0, 9, '
-2009-02-03
-', 5.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 0, 1, NOW(), NOW()),
-       (34, 0, 'Product 7
-', '', '', '', 1000, 6, 'catalog/demo/ipod_shuffle_1.jpg', 8, 1, 100.0000, 0, 9, '
-2009-02-03
-', 5.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 0, 1, NOW(), NOW()),
-       (35, 0, 'Product 8
-', '', '', '', 1000, 5, '', 0, 0, 100.0000, 0, 9, '
-2009-02-03
-', 5.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 0, 0, 1, NOW(), NOW()),
-       (36, 0, 'Product 9
-', '', '', '', 994, 6, 'catalog/demo/ipod_nano_1.jpg', 8, 0, 100.0000, 100, 9, '
-2009-02-03
-', 5.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 0, 1, NOW(), NOW()),
-       (40, 0, 'product 11
-', '', '', '', 970, 5, 'catalog/demo/iphone_1.jpg', 8, 1, 100.0000, 0, 9, '
-2009-02-03
-', 10.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 0, 0, 1, NOW(), NOW()),
-       (41, 0, 'Product 14
-', '', '', '', 977, 5, 'catalog/demo/imac_1.jpg', 8, 1, 100.0000, 0, 9, '
-2009-02-03
-', 5.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 0, 0, 1, NOW(), NOW()),
-       (42, 0, 'Product 15
-', '', '', '', 990, 5, 'catalog/demo/apple_cinema_30.jpg', 8, 1, 100.0000, 400, 9, '
-2009-02-04
-', 12.50000000, 1, 1.00000000, 2.00000000, 3.00000000, 1, 1, 2, 0, 0, 1, NOW(), NOW()),
-       (43, 0, 'Product 16
-', '', '', '', 929, 5, 'catalog/demo/macbook_1.jpg', 8, 0, 100.0000, 0, 9, '
-2009-02-03
-', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 0, 1, NOW(), NOW()),
-       (44, 0, 'Product 17
-', '', '', '', 1000, 5, 'catalog/demo/macbook_air_1.jpg', 8, 1, 1000.0000, 0, 9, '
-2009-02-03
-', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 0, 1, NOW(), NOW()),
-       (45, 0, 'Product 18
-', '', '', '', 998, 5, 'catalog/demo/macbook_pro_1.jpg', 8, 1, 2000.0000, 0, 100, '
-2009-02-03
-', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 0, 1, NOW(), NOW()),
-       (46, 0, 'Product 19
-', '', '', '', 1000, 5, 'catalog/demo/sony_vaio_1.jpg', 10, 1, 1000.0000, 0, 9, '
-2009-02-03
-', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 0, 1, NOW(), NOW()),
-       (47, 0, 'Product 21
-', '', '', '', 1000, 5, 'catalog/demo/hp_1.jpg', 7, 1, 100.0000, 400, 9, '
-2009-02-03
-', 1.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 0, 1, 0, 0, 1, NOW(), NOW()),
-       (48, 0, 'product 20
-', 'test 2
-', '', '', 995, 5, 'catalog/demo/ipod_classic_1.jpg', 8, 1, 100.0000, 0, 9, '
-2009-02-08
-', 1.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 0, 1, NOW(), NOW()),
-       (49, 0, 'SAM1', '', '', '', 0, 8, 'catalog/demo/samsung_tab_1.jpg', 0, 1, 199.9900, 0, 9, '
-2011-04-25
-', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 0, 1, 1, NOW(), NOW()),
-       (50, 42, 'Product 15
-', '', '{
-\"208\":\"\",\"217\":\"\",\"209\":\"\",\"222\":\"\",\"219\":\"\",\"221\":\"\",\"220\":\"\"}', '{\"status\":\"1\"}', 990, 5, 'catalog/demo/apple_cinema_30.jpg', 8, 1, 100.0000, 400, 9, '2009-02-04', 12.50000000, 1, 1.00000000, 2.00000000, 3.00000000, 1, 1, 2, 0, 0, 0, NOW(), NOW());
+INSERT INTO `oc_product` (`product_id`, `model`, `sku`, `upc`, `ean`, `jan`, `isbn`, `mpn`, `location`, `variant`, `override`, `quantity`, `stock_status_id`, `image`, `manufacturer_id`, `shipping`, `price`, `points`, `tax_class_id`, `date_available`, `weight`, `weight_class_id`, `length`, `width`, `height`, `length_class_id`, `subtract`, `minimum`, `sort_order`, `status`, `date_added`, `date_modified`)
+VALUES (28, 'Product 1', '', '', '', '', '', '', '', '', '', 939, 7, 'catalog/demo/htc_touch_hd_1.jpg', 5, 1, '100.0000', 200, 9, '2009-02-03', '146.40000000', 2, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, '2009-02-03 16:06:50', '2011-09-30 01:05:39'),
+       (29, 'Product 2', '', '', '', '', '', '', '', '', '', 999, 6, 'catalog/demo/palm_treo_pro_1.jpg', 6, 1, '279.9900', 0, 9, '2009-02-03', '133.00000000', 2, '0.00000000', '0.00000000', '0.00000000', 3, 1, 1, 0, 1, '2009-02-03 16:42:17', '2011-09-30 01:06:08'),
+       (30, 'Product 3', '', '', '', '', '', '', '', '', '', 7, 6, 'catalog/demo/canon_eos_5d_1.jpg', 9, 1, '100.0000', 0, 9, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, '2009-02-03 16:59:00', '2011-09-30 01:05:23'),
+       (31, 'Product 4', '', '', '', '', '', '', '', '', '', 1000, 6, 'catalog/demo/nikon_d300_1.jpg', 0, 1, '80.0000', 0, 9, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 3, 1, 1, 0, 1, '2009-02-03 17:00:10', '2011-09-30 01:06:00'),
+       (32, 'Product 5', '', '', '', '', '', '', '', '', '', 999, 6, 'catalog/demo/ipod_touch_1.jpg', 8, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, '2009-02-03 17:07:26', '2011-09-30 01:07:22'),
+       (33, 'Product 6', '', '', '', '', '', '', '', '', '', 1000, 6, 'catalog/demo/samsung_syncmaster_941bw.jpg', 0, 1, '200.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, '2009-02-03 17:08:31', '2011-09-30 01:06:29'),
+       (34, 'Product 7', '', '', '', '', '', '', '', '', '', 1000, 6, 'catalog/demo/ipod_shuffle_1.jpg', 8, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, '2009-02-03 18:07:54', '2011-09-30 01:07:17'),
+       (35, 'Product 8', '', '', '', '', '', '', '', '', '', 1000, 5, '', 0, 0, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, '2009-02-03 18:08:31', '2011-09-30 01:06:17'),
+       (36, 'Product 9', '', '', '', '', '', '', '', '', '', 994, 6, 'catalog/demo/ipod_nano_1.jpg', 8, 0, '100.0000', 100, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, '2009-02-03 18:09:19', '2011-09-30 01:07:12'),
+       (40, 'product 11', '', '', '', '', '', '', '', '', '', 970, 5, 'catalog/demo/iphone_1.jpg', 8, 1, '101.0000', 0, 9, '2009-02-03', '10.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, '2009-02-03 21:07:12', '2011-09-30 01:06:53'),
+       (41, 'Product 14', '', '', '', '', '', '', '', '', '', 977, 5, 'catalog/demo/imac_1.jpg', 8, 1, '100.0000', 0, 9, '2009-02-03', '5.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 0, 1, '2009-02-03 21:07:26', '2011-09-30 01:06:44'),
+       (42, 'Product 15', '', '', '', '', '', '', '', '', '', 990, 5, 'catalog/demo/apple_cinema_30.jpg', 8, 1, '100.0000', 400, 9, '2009-02-04', '12.50000000', 1, '1.00000000', '2.00000000', '3.00000000', 1, 1, 2, 0, 1, '2009-02-03 21:07:37', '2011-09-30 00:46:19'),
+       (43, 'Product 16', '', '', '', '', '', '', '', '', '', 929, 5, 'catalog/demo/macbook_1.jpg', 8, 0, '500.0000', 0, 9, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, '2009-02-03 21:07:49', '2011-09-30 01:05:46'),
+       (44, 'Product 17', '', '', '', '', '', '', '', '', '', 1000, 5, 'catalog/demo/macbook_air_1.jpg', 8, 1, '1000.0000', 0, 9, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, '2009-02-03 21:08:00', '2011-09-30 01:05:53'),
+       (45, 'Product 18', '', '', '', '', '', '', '', '', '', 998, 5, 'catalog/demo/macbook_pro_1.jpg', 8, 1, '2000.0000', 0, 100, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, '2009-02-03 21:08:17', '2011-09-15 22:22:01'),
+       (46, 'Product 19', '', '', '', '', '', '', '', '', '', 1000, 5, 'catalog/demo/sony_vaio_1.jpg', 10, 1, '1000.0000', 0, 9, '2009-02-03', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, '2009-02-03 21:08:29', '2011-09-30 01:06:39'),
+       (47, 'Product 21', '', '', '', '', '', '', '', '', '', 1000, 5, 'catalog/demo/hp_1.jpg', 7, 1, '100.0000', 400, 9, '2009-02-03', '1.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 0, 1, 0, 1, '2009-02-03 21:08:40', '2011-09-30 01:05:28'),
+       (48, 'product 20', 'test 1', '', '', '', '', '', 'test 2', '', '', 995, 5, 'catalog/demo/ipod_classic_1.jpg', 8, 1, '100.0000', 0, 9, '2009-02-08', '1.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 2, 1, 1, 0, 1, '2009-02-08 17:21:51', '2011-09-30 01:07:06'),
+       (49, 'SAM1', '', '', '', '', '', '', '', '', '', 0, 8, 'catalog/demo/samsung_tab_1.jpg', 0, 1, '199.9900', 0, 9, '2011-04-25', '0.00000000', 1, '0.00000000', '0.00000000', '0.00000000', 1, 1, 1, 1, 1, '2011-04-26 08:57:34', '2011-09-30 01:06:23');
 
 -----------------------------------------------------------
 
@@ -2882,9 +2263,9 @@ VALUES (1, 1, 'Pending'),
 INSERT INTO `oc_setting` (`store_id`, `code`, `key`, `value`, `serialized`)
 VALUES (0, 'config', 'config_shared', '0', 0),
        (0, 'config', 'config_fraud_detection', '0', 0),
-       (0, 'config', 'config_description', '{"
-1
-":{"meta_title":"Your Store","meta_description":"","meta_keyword":""}}', 1),
+       (0, 'config', 'config_description', '{"1":{"meta_title":"Your Store","meta_description":"","meta_keyword":""}}', 1),
+       (0, 'config', 'config_session_expire', '86400', 0),
+       (0, 'config', 'config_session_samesite', 'Strict', 0),
        (0, 'config', 'config_theme', 'basic', 0),
        (0, 'config', 'config_layout_id', '4', 0),
        (0, 'config', 'config_country_id', '222', 0),
@@ -2916,9 +2297,7 @@ VALUES (0, 'config', 'config_shared', '0', 0),
        (0, 'config', 'config_customer_activity', '0', 0),
        (0, 'config', 'config_customer_search', '0', 0),
        (0, 'config', 'config_customer_group_id', '1', 0),
-       (0, 'config', 'config_customer_group_list', '["
-1
-"]', 1),
+       (0, 'config', 'config_customer_group_display', '["1"]', 1),
        (0, 'config', 'config_customer_price', '0', 0),
        (0, 'config', 'config_address_format_id', '1', 0),
        (0, 'config', 'config_account_id', '3', 0),
@@ -2928,22 +2307,8 @@ VALUES (0, 'config', 'config_shared', '0', 0),
        (0, 'config', 'config_checkout_guest', '1', 0),
        (0, 'config', 'config_checkout_id', '0', 0),
        (0, 'config', 'config_order_status_id', '1', 0),
-       (0, 'config', 'config_processing_status', '["
-5
-","
-1
-","
-2
-","
-12
-","
-3
-"]', 1),
-       (0, 'config', 'config_complete_status', '["
-5
-","
-3
-"]', 1),
+       (0, 'config', 'config_processing_status', '["5","1","2","12","3"]', 1),
+       (0, 'config', 'config_complete_status', '["5","3"]', 1),
        (0, 'config', 'config_void_status_id', '16', 0),
        (0, 'config', 'config_fraud_status_id', '8', 0),
        (0, 'config', 'config_subscription_status_id', '1', 0),
@@ -2972,18 +2337,45 @@ VALUES (0, 'config', 'config_shared', '0', 0),
        (0, 'config', 'config_image_thumb_height', '500', 0),
        (0, 'config', 'config_image_popup_width', '800', 0),
        (0, 'config', 'config_image_popup_height', '800', 0),
+       (0, 'config', 'config_image_category_width', '300', 0),
+       (0, 'config', 'config_image_category_height', '300', 0),
+       (0, 'config', 'config_image_article_width', '1140', 0),
+       (0, 'config', 'config_image_article_height', '380', 0),
+       (0, 'config', 'config_image_topic_width', '1140', 0),
+       (0, 'config', 'config_image_topic_height', '380', 0),
+       (0, 'config', 'config_image_product_width', '250', 0),
+       (0, 'config', 'config_image_product_height', '250', 0),
+       (0, 'config', 'config_image_additional_width', '74', 0),
+       (0, 'config', 'config_image_additional_height', '74', 0),
+       (0, 'config', 'config_image_related_width', '250', 0),
+       (0, 'config', 'config_image_related_height', '250', 0),
+       (0, 'config', 'config_image_compare_width', '90', 0),
+       (0, 'config', 'config_image_compare_height', '90', 0),
+       (0, 'config', 'config_image_wishlist_width', '47', 0),
+       (0, 'config', 'config_image_wishlist_height', '47', 0),
+       (0, 'config', 'config_image_cart_height', '47', 0),
+       (0, 'config', 'config_image_cart_width', '47', 0),
+       (0, 'config', 'config_image_location_height', '268', 0),
+       (0, 'config', 'config_image_location_width', '268', 0),
        (0, 'config', 'config_open', '', 0),
        (0, 'config', 'config_image', '', 0),
        (0, 'config', 'config_fax', '', 0),
        (0, 'config', 'config_telephone', '123456789', 0),
        (0, 'config', 'config_email', 'demo@opencart.com', 0),
+       (0, 'config', 'config_geocode', '', 0),
        (0, 'config', 'config_owner', 'Your Name', 0),
        (0, 'config', 'config_address', 'Address 1', 0),
        (0, 'config', 'config_name', 'Your Store', 0),
        (0, 'config', 'config_seo_url', '0', 0),
-      (0, 'config', 'config_maintenance', '0', 0),
+       (0, 'config', 'config_file_max_size', '20', 0),
+       (0, 'config', 'config_file_ext_allowed', 'zip\r\ntxt\r\npng\r\njpe\r\njpeg\r\nwebp\r\njpg\r\ngif\r\nbmp\r\nico\r\ntiff\r\ntif\r\nsvg\r\nsvgz\r\nzip\r\nrar\r\nmsi\r\ncab\r\nmp3\r\nmp4\r\nqt\r\nmov\r\npdf\r\npsd\r\nai\r\neps\r\nps\r\ndoc', 0),
+       (0, 'config', 'config_file_mime_allowed', 'text/plain\r\nimage/png\r\nimage/webp\r\nimage/jpeg\r\nimage/gif\r\nimage/bmp\r\nimage/tiff\r\nimage/svg+xml\r\napplication/zip\r\napplication/x-zip\r\napplication/x-zip-compressed\r\napplication/rar\r\napplication/x-rar\r\napplication/x-rar-compressed\r\napplication/octet-stream\r\naudio/mpeg\r\nvideo/mp4\r\nvideo/quicktime\r\napplication/pdf', 0),
+       (0, 'config', 'config_maintenance', '0', 0),
+       (0, 'config', 'config_encryption', '', 0),
+       (0, 'config', 'config_compression', '0', 0),
        (0, 'config', 'config_error_display', '1', 0),
        (0, 'config', 'config_error_log', '1', 0),
+       (0, 'config', 'config_error_filename', 'error.log', 0),
        (0, 'config', 'config_mail_engine', '', 0),
        (0, 'config', 'config_mail_parameter', '', 0),
        (0, 'config', 'config_mail_smtp_hostname', '', 0),
@@ -2998,7 +2390,6 @@ VALUES (0, 'config', 'config_shared', '0', 0),
        (0, 'config', 'config_2fa_expire', '90', 0),
        (0, 'config', 'config_login_attempts', '5', 0),
        (0, 'config', 'config_password_length', '6', 0),
-       (0, 'config', 'config_user_password_length', '5', 0),
        (0, 'currency_ecb', 'currency_ecb_status', '1', 0),
        (0, 'dashboard_activity', 'dashboard_activity_status', '1', 0),
        (0, 'dashboard_activity', 'dashboard_activity_sort_order', '7', 0),
@@ -3095,28 +2486,26 @@ VALUES (0, 'config', 'config_shared', '0', 0),
 --
 
 INSERT INTO `oc_seo_url` (`store_id`, `language_id`, `key`, `value`, `keyword`, `sort_order`)
-VALUES (0, 1, 'language', 'en-gb', 'en-gb', -2),
-       (0, 1, 'route', 'information/information', 'information', -1),
-       (0, 1, 'route', 'information/sitemap', 'sitemap', -1),
-       (0, 1, 'route', 'information/contact', 'contact', -1),
-       (0, 1, 'route', 'cms/topic', 'cms', -1),
-       (0, 1, 'route', 'product/product', 'product', -1),
-       (0, 1, 'route', 'product/category', 'catalog', -1),
-       (0, 1, 'route', 'product/manufacturer', 'brands', -1),
-       (0, 1, 'route', 'product/special', 'special', -1),
-       (0, 1, 'route', 'product/search', 'search', -1),
-       (0, 1, 'route', 'account/returns.add', 'returns', -1),
-       (0, 1, 'route', 'account/newsletter', 'newsletter', -1),
-       (0, 1, 'route', 'account/password', 'password', -1),
-       (0, 1, 'route', 'account/forgotten', 'forgotten', -1),
-       (0, 1, 'route', 'account/address', 'address', -1),
-       (0, 1, 'route', 'account/address.form', 'address_edit', -1),
-       (0, 1, 'route', 'account/download', 'download', -1),
-       (0, 1, 'route', 'product/compare', 'compare', -1),
-       (0, 1, 'information_id', '1', 'about-us', 0),
-       (0, 1, 'information_id', '2', 'terms', 0),
-       (0, 1, 'information_id', '4', 'delivery', 0),
-       (0, 1, 'information_id', '3', 'privacy', 0),
+VALUES (0, 1, 'product_id', '47', 'hp-lp3065', 1),
+       (0, 1, 'product_id', '48', 'ipod-classic', 1),
+       (0, 1, 'product_id', '28', 'htc-touch-hd', 1),
+       (0, 1, 'product_id', '43', 'macbook', 1),
+       (0, 1, 'product_id', '44', 'macbook-air', 1),
+       (0, 1, 'product_id', '45', 'macbook-pro', 1),
+       (0, 1, 'product_id', '30', 'canon-eos-5d', 1),
+       (0, 1, 'product_id', '31', 'nikon-d300', 1),
+       (0, 1, 'product_id', '29', 'palm-treo-pro', 1),
+       (0, 1, 'product_id', '35', 'product-8', 1),
+       (0, 1, 'product_id', '49', 'samsung-galaxy-tab-10-1', 1),
+       (0, 1, 'product_id', '33', 'samsung-syncmaster-941bw', 1),
+       (0, 1, 'product_id', '46', 'sony-vaio', 1),
+       (0, 1, 'product_id', '41', 'imac', 1),
+       (0, 1, 'product_id', '40', 'iphone', 1),
+       (0, 1, 'product_id', '36', 'ipod-nano', 1),
+       (0, 1, 'product_id', '34', 'ipod-shuffle', 1),
+       (0, 1, 'product_id', '32', 'ipod-touch', 1),
+       (0, 1, 'product_id', '50', 'apple-4', 1),
+       (0, 1, 'product_id', '42', 'apple-cinema', 1),
        (0, 1, 'manufacturer_id', '5', 'htc', 0),
        (0, 1, 'manufacturer_id', '7', 'hewlett-packard', 0),
        (0, 1, 'manufacturer_id', '6', 'palm', 0),
@@ -3124,14 +2513,18 @@ VALUES (0, 1, 'language', 'en-gb', 'en-gb', -2),
        (0, 1, 'manufacturer_id', '9', 'canon', 0),
        (0, 1, 'manufacturer_id', '8', 'apple', 0),
        (0, 1, 'path', '30', 'printer', 0),
+       (0, 1, 'path', '20_27', 'desktops/mac', 0),
+       (0, 1, 'path', '20_26', 'desktops/pc', 0),
        (0, 1, 'path', '25', 'component', 0),
        (0, 1, 'path', '25_29', 'component/mouse', 0),
+       (0, 1, 'path', '33', 'cameras', 0),
        (0, 1, 'path', '25_28', 'component/monitor', 0),
        (0, 1, 'path', '25_28_35', 'component/monitor/test-1', 0),
        (0, 1, 'path', '25_28_36', 'component/monitor/test-2', 0),
        (0, 1, 'path', '25_30', 'component/printers', 0),
        (0, 1, 'path', '25_31', 'component/scanner', 0),
        (0, 1, 'path', '25_32', 'component/web-camera', 0),
+       (0, 1, 'path', '20', 'desktops', 0),
        (0, 1, 'path', '18', 'laptop-notebook', 0),
        (0, 1, 'path', '18_46', 'laptop-notebook/macs', 0),
        (0, 1, 'path', '18_45', 'laptop-notebook/windows', 0),
@@ -3158,58 +2551,16 @@ VALUES (0, 1, 'language', 'en-gb', 'en-gb', -2),
        (0, 1, 'path', '24', 'smartphone', 0),
        (0, 1, 'path', '17', 'software', 0),
        (0, 1, 'path', '57', 'tablet', 0),
-       (0, 1, 'path', '20', 'desktops', 0),
-       (0, 1, 'path', '20_27', 'desktops/mac', 0),
-       (0, 1, 'path', '20_26', 'desktops/pc', 0),
-       (0, 1, 'path', '33', 'cameras', 0),
-       (0, 1, 'product_id', '48', 'ipod-classic', 1),
-       (0, 1, 'product_id', '28', 'htc-touch-hd', 1),
-       (0, 1, 'product_id', '43', 'macbook', 1),
-       (0, 1, 'product_id', '44', 'macbook-air', 1),
-       (0, 1, 'product_id', '45', 'macbook-pro', 1),
-       (0, 1, 'product_id', '30', 'canon-eos-5d', 1),
-       (0, 1, 'product_id', '31', 'nikon-d300', 1),
-       (0, 1, 'product_id', '29', 'palm-treo-pro', 1),
-       (0, 1, 'product_id', '35', 'product-8', 1),
-       (0, 1, 'product_id', '49', 'samsung-galaxy-tab-10-1', 1),
-       (0, 1, 'product_id', '33', 'samsung-syncmaster-941bw', 1),
-       (0, 1, 'product_id', '46', 'sony-vaio', 1),
-       (0, 1, 'product_id', '41', 'imac', 1),
-       (0, 1, 'product_id', '40', 'iphone', 1),
-       (0, 1, 'product_id', '36', 'ipod-nano', 1),
-       (0, 1, 'product_id', '34', 'ipod-shuffle', 1),
-       (0, 1, 'product_id', '32', 'ipod-touch', 1),
-       (0, 1, 'product_id', '50', 'apple-4', 1),
-       (0, 1, 'product_id', '42', 'apple-cinema', 1),
-       (0, 1, 'product_id', '47', 'hp-lp3065', 1),
-       (0, 1, 'sort', 'name', 'name', 9),
-       (0, 1, 'sort', 'price', 'price', 9),
-       (0, 1, 'sort', 'rating', 'rating', 9),
-       (0, 1, 'sort', 'model', 'model', 9),
-       (0, 1, 'order', 'asc', 'asc', 10),
-       (0, 1, 'order', 'desc', 'desc', 10);
-
------------------------------------------------------------
-
---
--- Dumping data for table `oc_seo_regex`
---
-
-INSERT INTO `oc_seo_regex` (`seo_regex_id`, `key`, `match`, `replace`, `keyword`, `value`, `sort_order`)
-VALUES ('1', 'page', '/^(\\d+)$/', 'page-$1', '/^page-(\\d+)$/', '$1', '10'),
-       ('2', 'limit', '/^(\\d+)$/', 'limit-$1', '/^limit-(\\d+)$/', '$1', '11'),
-       ('3', 'filter', '/^(\\d+)$/', 'filter-$1', '/^filter-(\\d+)$/', '$1', '0'),
-       ('4', 'filter', '^/(\\d+),(\\d+)$/', 'filter-$1-$2', '/^filter-(\\d+)-(\\d+)$/', '$1,$2', '0'),
-       ('5', 'customer_token', '/^(\\s+)$/', 'customer-token-$1', '/^customer-token-(\\s+)$/', '$1', '0');
-
------------------------------------------------------------
-
---
--- Dumping data for table `oc_startup`
---
-
-INSERT INTO `oc_startup` (`description`, `code`, `action`, `status`, `sort_order`)
-VALUES ('Starts processing tasks when a new task is added.', 'task', 'admin/controller/startup/task', '1', '1');
+       (0, 1, 'information_id', '1', 'about-us', 0),
+       (0, 1, 'information_id', '2', 'terms', 0),
+       (0, 1, 'information_id', '4', 'delivery', 0),
+       (0, 1, 'information_id', '3', 'privacy', 0),
+       (0, 1, 'language', 'en-gb', 'en-gb', -2),
+       (0, 1, 'route', 'information/information.info', 'info', 0),
+       (0, 1, 'route', 'information/information', 'information', -1),
+       (0, 1, 'route', 'product/product', 'product', -1),
+       (0, 1, 'route', 'product/category', 'catalog', -1),
+       (0, 1, 'route', 'product/manufacturer', 'brands', -1);
 
 -----------------------------------------------------------
 
@@ -3324,8 +2675,7 @@ VALUES (121, 10, 86, 'payment', 1),
 --
 
 INSERT INTO `oc_user_group` (`user_group_id`, `name`, `permission`)
-VALUES (1, 'Administrator',
-        '{\"access\":[\"catalog\\/attribute\",\"catalog\\/attribute_group\",\"catalog\\/category\",\"catalog\\/download\",\"catalog\\/filter\",\"catalog\\/filter_group\",\"catalog\\/information\",\"catalog\\/manufacturer\",\"catalog\\/option\",\"catalog\\/product\",\"catalog\\/review\",\"catalog\\/subscription_plan\",\"cms\\/antispam\",\"cms\\/article\",\"cms\\/comment\",\"cms\\/topic\",\"common\\/developer\",\"common\\/filemanager\",\"common\\/security\",\"cron\\/backup\",\"cron\\/cron\",\"cron\\/currency\",\"cron\\/gdpr\",\"cron\\/subscription\",\"cron\\/task\",\"customer\\/address\",\"customer\\/custom_field\",\"customer\\/customer\",\"customer\\/customer_approval\",\"customer\\/customer_group\",\"customer\\/gdpr\",\"design\\/banner\",\"design\\/layout\",\"design\\/seo_regex\",\"design\\/seo_url\",\"design\\/theme\",\"design\\/translation\",\"error\\/exception\",\"event\\/article\",\"event\\/attribute\",\"event\\/attribute_group\",\"event\\/banner\",\"event\\/category\",\"event\\/country\",\"event\\/custom_field\",\"event\\/customer_group\",\"event\\/filter\",\"event\\/filter_group\",\"event\\/information\",\"event\\/length_class\",\"event\\/manufacturer\",\"event\\/option\",\"event\\/order_status\",\"event\\/product\",\"event\\/return_action\",\"event\\/return_reason\",\"event\\/return_status\",\"event\\/stock_status\",\"event\\/store\",\"event\\/subscription_status\",\"event\\/task\",\"event\\/theme\",\"event\\/topic\",\"event\\/translation\",\"event\\/weight_class\",\"extension\\/analytics\",\"extension\\/captcha\",\"extension\\/currency\",\"extension\\/dashboard\",\"extension\\/feed\",\"extension\\/fraud\",\"extension\\/language\",\"extension\\/marketplace\",\"extension\\/module\",\"extension\\/other\",\"extension\\/payment\",\"extension\\/report\",\"extension\\/shipping\",\"extension\\/theme\",\"extension\\/total\",\"localisation\\/address_format\",\"localisation\\/country\",\"localisation\\/currency\",\"localisation\\/geo_zone\",\"localisation\\/identifier\",\"localisation\\/language\",\"localisation\\/length_class\",\"localisation\\/location\",\"localisation\\/order_status\",\"localisation\\/return_action\",\"localisation\\/return_reason\",\"localisation\\/return_status\",\"localisation\\/stock_status\",\"localisation\\/subscription_status\",\"localisation\\/tax_class\",\"localisation\\/tax_rate\",\"localisation\\/weight_class\",\"localisation\\/zone\",\"mail\\/affiliate\",\"mail\\/authorize\",\"mail\\/customer\",\"mail\\/forgotten\",\"mail\\/gdpr\",\"mail\\/returns\",\"mail\\/reward\",\"mail\\/subscription\",\"mail\\/transaction\",\"marketing\\/affiliate\",\"marketing\\/contact\",\"marketing\\/coupon\",\"marketing\\/marketing\",\"marketplace\\/api\",\"marketplace\\/cron\",\"marketplace\\/event\",\"marketplace\\/extension\",\"marketplace\\/installer\",\"marketplace\\/marketplace\",\"marketplace\\/promotion\",\"marketplace\\/ssr\",\"marketplace\\/startup\",\"marketplace\\/task\",\"report\\/online\",\"report\\/report\",\"sale\\/order\",\"sale\\/returns\",\"sale\\/subscription\",\"setting\\/setting\",\"setting\\/store\",\"startup\\/task\",\"task\\/admin\\/country\",\"task\\/admin\\/currency\",\"task\\/admin\\/customer_group\",\"task\\/admin\\/information\",\"task\\/admin\\/language\",\"task\\/admin\\/length_class\",\"task\\/admin\\/order_status\",\"task\\/admin\\/return_action\",\"task\\/admin\\/return_reason\",\"task\\/admin\\/return_status\",\"task\\/admin\\/sass\",\"task\\/admin\\/stock_status\",\"task\\/admin\\/store\",\"task\\/admin\\/subscription\",\"task\\/admin\\/subscription_status\",\"task\\/admin\\/translation\",\"task\\/admin\\/weight_class\",\"task\\/catalog\\/banner\",\"task\\/catalog\\/country\",\"task\\/catalog\\/currency\",\"task\\/catalog\\/customer_group\",\"task\\/catalog\\/language\",\"task\\/catalog\\/return_reason\",\"task\\/catalog\\/review\",\"task\\/catalog\\/sass\",\"task\\/catalog\\/store\",\"task\\/catalog\\/template\",\"task\\/catalog\\/translation\",\"task\\/report\\/order\",\"task\\/report\\/rating\",\"task\\/report\\/returns\",\"task\\/report\\/review\",\"task\\/report\\/sale\",\"task\\/report\\/stock\",\"task\\/system\\/admin\",\"task\\/system\\/backup\",\"task\\/system\\/installer\",\"task\\/system\\/mail\",\"task\\/system\\/restore\",\"task\\/system\\/storage\",\"task\\/system\\/upgrade\",\"tool\\/backup\",\"tool\\/log\",\"tool\\/menu\",\"tool\\/notification\",\"tool\\/upgrade\",\"tool\\/upload\",\"user\\/api\",\"user\\/profile\",\"user\\/user\",\"user\\/user_permission\",\"extension\\/opencart\\/api\\/coupon\",\"extension\\/opencart\\/api\\/reward\",\"extension\\/opencart\\/captcha\\/basic\",\"extension\\/opencart\\/currency\\/ecb\",\"extension\\/opencart\\/currency\\/fixer\",\"extension\\/opencart\\/dashboard\\/activity\",\"extension\\/opencart\\/dashboard\\/chart\",\"extension\\/opencart\\/dashboard\\/customer\",\"extension\\/opencart\\/dashboard\\/map\",\"extension\\/opencart\\/dashboard\\/online\",\"extension\\/opencart\\/dashboard\\/order\",\"extension\\/opencart\\/dashboard\\/recent\",\"extension\\/opencart\\/dashboard\\/sale\",\"extension\\/opencart\\/fraud\\/ddos\",\"extension\\/opencart\\/fraud\\/ip\",\"extension\\/opencart\\/module\\/account\",\"extension\\/opencart\\/module\\/banner\",\"extension\\/opencart\\/module\\/bestseller\",\"extension\\/opencart\\/module\\/blog\",\"extension\\/opencart\\/module\\/category\",\"extension\\/opencart\\/module\\/featured\",\"extension\\/opencart\\/module\\/filter\",\"extension\\/opencart\\/module\\/html\",\"extension\\/opencart\\/module\\/information\",\"extension\\/opencart\\/module\\/latest\",\"extension\\/opencart\\/module\\/special\",\"extension\\/opencart\\/module\\/store\",\"extension\\/opencart\\/module\\/topic\",\"extension\\/opencart\\/payment\\/bank_transfer\",\"extension\\/opencart\\/payment\\/cheque\",\"extension\\/opencart\\/payment\\/cod\",\"extension\\/opencart\\/payment\\/free_checkout\",\"extension\\/opencart\\/report\\/customer\",\"extension\\/opencart\\/report\\/customer_activity\",\"extension\\/opencart\\/report\\/customer_order\",\"extension\\/opencart\\/report\\/customer_reward\",\"extension\\/opencart\\/report\\/customer_search\",\"extension\\/opencart\\/report\\/customer_transaction\",\"extension\\/opencart\\/report\\/marketing\",\"extension\\/opencart\\/report\\/product_purchased\",\"extension\\/opencart\\/report\\/product_viewed\",\"extension\\/opencart\\/report\\/sale_coupon\",\"extension\\/opencart\\/report\\/sale_order\",\"extension\\/opencart\\/report\\/sale_return\",\"extension\\/opencart\\/report\\/sale_shipping\",\"extension\\/opencart\\/report\\/sale_tax\",\"extension\\/opencart\\/report\\/subscription\",\"extension\\/opencart\\/shipping\\/flat\",\"extension\\/opencart\\/shipping\\/free\",\"extension\\/opencart\\/shipping\\/item\",\"extension\\/opencart\\/shipping\\/pickup\",\"extension\\/opencart\\/shipping\\/weight\",\"extension\\/opencart\\/task\\/product_viewed\",\"extension\\/opencart\\/theme\\/basic\",\"extension\\/opencart\\/total\\/coupon\",\"extension\\/opencart\\/total\\/credit\",\"extension\\/opencart\\/total\\/handling\",\"extension\\/opencart\\/total\\/low_order_fee\",\"extension\\/opencart\\/total\\/reward\",\"extension\\/opencart\\/total\\/shipping\",\"extension\\/opencart\\/total\\/sub_total\",\"extension\\/opencart\\/total\\/tax\",\"extension\\/opencart\\/total\\/total\"],\"modify\":[\"catalog\\/attribute\",\"catalog\\/attribute_group\",\"catalog\\/category\",\"catalog\\/download\",\"catalog\\/filter\",\"catalog\\/filter_group\",\"catalog\\/information\",\"catalog\\/manufacturer\",\"catalog\\/option\",\"catalog\\/product\",\"catalog\\/review\",\"catalog\\/subscription_plan\",\"cms\\/antispam\",\"cms\\/article\",\"cms\\/comment\",\"cms\\/topic\",\"common\\/developer\",\"common\\/filemanager\",\"common\\/security\",\"cron\\/backup\",\"cron\\/cron\",\"cron\\/currency\",\"cron\\/gdpr\",\"cron\\/subscription\",\"cron\\/task\",\"customer\\/address\",\"customer\\/custom_field\",\"customer\\/customer\",\"customer\\/customer_approval\",\"customer\\/customer_group\",\"customer\\/gdpr\",\"design\\/banner\",\"design\\/layout\",\"design\\/seo_regex\",\"design\\/seo_url\",\"design\\/theme\",\"design\\/translation\",\"error\\/exception\",\"event\\/article\",\"event\\/attribute\",\"event\\/attribute_group\",\"event\\/banner\",\"event\\/category\",\"event\\/country\",\"event\\/custom_field\",\"event\\/customer_group\",\"event\\/filter\",\"event\\/filter_group\",\"event\\/information\",\"event\\/length_class\",\"event\\/manufacturer\",\"event\\/option\",\"event\\/order_status\",\"event\\/product\",\"event\\/return_action\",\"event\\/return_reason\",\"event\\/return_status\",\"event\\/stock_status\",\"event\\/store\",\"event\\/subscription_status\",\"event\\/task\",\"event\\/theme\",\"event\\/topic\",\"event\\/translation\",\"event\\/weight_class\",\"extension\\/analytics\",\"extension\\/captcha\",\"extension\\/currency\",\"extension\\/dashboard\",\"extension\\/feed\",\"extension\\/fraud\",\"extension\\/language\",\"extension\\/marketplace\",\"extension\\/module\",\"extension\\/other\",\"extension\\/payment\",\"extension\\/report\",\"extension\\/shipping\",\"extension\\/theme\",\"extension\\/total\",\"localisation\\/address_format\",\"localisation\\/country\",\"localisation\\/currency\",\"localisation\\/geo_zone\",\"localisation\\/identifier\",\"localisation\\/language\",\"localisation\\/length_class\",\"localisation\\/location\",\"localisation\\/order_status\",\"localisation\\/return_action\",\"localisation\\/return_reason\",\"localisation\\/return_status\",\"localisation\\/stock_status\",\"localisation\\/subscription_status\",\"localisation\\/tax_class\",\"localisation\\/tax_rate\",\"localisation\\/weight_class\",\"localisation\\/zone\",\"mail\\/affiliate\",\"mail\\/authorize\",\"mail\\/customer\",\"mail\\/forgotten\",\"mail\\/gdpr\",\"mail\\/returns\",\"mail\\/reward\",\"mail\\/subscription\",\"mail\\/transaction\",\"marketing\\/affiliate\",\"marketing\\/contact\",\"marketing\\/coupon\",\"marketing\\/marketing\",\"marketplace\\/api\",\"marketplace\\/cron\",\"marketplace\\/event\",\"marketplace\\/extension\",\"marketplace\\/installer\",\"marketplace\\/marketplace\",\"marketplace\\/promotion\",\"marketplace\\/ssr\",\"marketplace\\/startup\",\"marketplace\\/task\",\"report\\/online\",\"report\\/report\",\"sale\\/order\",\"sale\\/returns\",\"sale\\/subscription\",\"setting\\/setting\",\"setting\\/store\",\"startup\\/task\",\"task\\/admin\\/country\",\"task\\/admin\\/currency\",\"task\\/admin\\/customer_group\",\"task\\/admin\\/information\",\"task\\/admin\\/language\",\"task\\/admin\\/length_class\",\"task\\/admin\\/order_status\",\"task\\/admin\\/return_action\",\"task\\/admin\\/return_reason\",\"task\\/admin\\/return_status\",\"task\\/admin\\/sass\",\"task\\/admin\\/stock_status\",\"task\\/admin\\/store\",\"task\\/admin\\/subscription\",\"task\\/admin\\/subscription_status\",\"task\\/admin\\/translation\",\"task\\/admin\\/weight_class\",\"task\\/catalog\\/banner\",\"task\\/catalog\\/country\",\"task\\/catalog\\/currency\",\"task\\/catalog\\/customer_group\",\"task\\/catalog\\/language\",\"task\\/catalog\\/return_reason\",\"task\\/catalog\\/review\",\"task\\/catalog\\/sass\",\"task\\/catalog\\/store\",\"task\\/catalog\\/template\",\"task\\/catalog\\/translation\",\"task\\/report\\/order\",\"task\\/report\\/rating\",\"task\\/report\\/returns\",\"task\\/report\\/review\",\"task\\/report\\/sale\",\"task\\/report\\/stock\",\"task\\/system\\/admin\",\"task\\/system\\/backup\",\"task\\/system\\/installer\",\"task\\/system\\/mail\",\"task\\/system\\/restore\",\"task\\/system\\/storage\",\"task\\/system\\/upgrade\",\"tool\\/backup\",\"tool\\/log\",\"tool\\/menu\",\"tool\\/notification\",\"tool\\/upgrade\",\"tool\\/upload\",\"user\\/api\",\"user\\/profile\",\"user\\/user\",\"user\\/user_permission\",\"extension\\/opencart\\/api\\/coupon\",\"extension\\/opencart\\/api\\/reward\",\"extension\\/opencart\\/captcha\\/basic\",\"extension\\/opencart\\/currency\\/ecb\",\"extension\\/opencart\\/currency\\/fixer\",\"extension\\/opencart\\/dashboard\\/activity\",\"extension\\/opencart\\/dashboard\\/chart\",\"extension\\/opencart\\/dashboard\\/customer\",\"extension\\/opencart\\/dashboard\\/map\",\"extension\\/opencart\\/dashboard\\/online\",\"extension\\/opencart\\/dashboard\\/order\",\"extension\\/opencart\\/dashboard\\/recent\",\"extension\\/opencart\\/dashboard\\/sale\",\"extension\\/opencart\\/fraud\\/ddos\",\"extension\\/opencart\\/fraud\\/ip\",\"extension\\/opencart\\/module\\/account\",\"extension\\/opencart\\/module\\/banner\",\"extension\\/opencart\\/module\\/bestseller\",\"extension\\/opencart\\/module\\/blog\",\"extension\\/opencart\\/module\\/category\",\"extension\\/opencart\\/module\\/featured\",\"extension\\/opencart\\/module\\/filter\",\"extension\\/opencart\\/module\\/html\",\"extension\\/opencart\\/module\\/information\",\"extension\\/opencart\\/module\\/latest\",\"extension\\/opencart\\/module\\/special\",\"extension\\/opencart\\/module\\/store\",\"extension\\/opencart\\/module\\/topic\",\"extension\\/opencart\\/payment\\/bank_transfer\",\"extension\\/opencart\\/payment\\/cheque\",\"extension\\/opencart\\/payment\\/cod\",\"extension\\/opencart\\/payment\\/free_checkout\",\"extension\\/opencart\\/report\\/customer\",\"extension\\/opencart\\/report\\/customer_activity\",\"extension\\/opencart\\/report\\/customer_order\",\"extension\\/opencart\\/report\\/customer_reward\",\"extension\\/opencart\\/report\\/customer_search\",\"extension\\/opencart\\/report\\/customer_transaction\",\"extension\\/opencart\\/report\\/marketing\",\"extension\\/opencart\\/report\\/product_purchased\",\"extension\\/opencart\\/report\\/product_viewed\",\"extension\\/opencart\\/report\\/sale_coupon\",\"extension\\/opencart\\/report\\/sale_order\",\"extension\\/opencart\\/report\\/sale_return\",\"extension\\/opencart\\/report\\/sale_shipping\",\"extension\\/opencart\\/report\\/sale_tax\",\"extension\\/opencart\\/report\\/subscription\",\"extension\\/opencart\\/shipping\\/flat\",\"extension\\/opencart\\/shipping\\/free\",\"extension\\/opencart\\/shipping\\/item\",\"extension\\/opencart\\/shipping\\/pickup\",\"extension\\/opencart\\/shipping\\/weight\",\"extension\\/opencart\\/task\\/product_viewed\",\"extension\\/opencart\\/theme\\/basic\",\"extension\\/opencart\\/total\\/coupon\",\"extension\\/opencart\\/total\\/credit\",\"extension\\/opencart\\/total\\/handling\",\"extension\\/opencart\\/total\\/low_order_fee\",\"extension\\/opencart\\/total\\/reward\",\"extension\\/opencart\\/total\\/shipping\",\"extension\\/opencart\\/total\\/sub_total\",\"extension\\/opencart\\/total\\/tax\",\"extension\\/opencart\\/total\\/total\"]}'),
+VALUES (1, 'Administrator', '{\"access\":[\"catalog\\/attribute\",\"catalog\\/attribute_group\",\"catalog\\/category\",\"catalog\\/download\",\"catalog\\/filter\",\"catalog\\/filter_group\",\"catalog\\/identifier\",\"catalog\\/information\",\"catalog\\/manufacturer\",\"catalog\\/option\",\"catalog\\/product\",\"catalog\\/review\",\"catalog\\/subscription_plan\",\"cms\\/antispam\",\"cms\\/article\",\"cms\\/comment\",\"cms\\/topic\",\"common\\/developer\",\"common\\/filemanager\",\"common\\/security\",\"customer\\/address\",\"customer\\/custom_field\",\"customer\\/customer\",\"customer\\/customer_approval\",\"customer\\/customer_group\",\"customer\\/gdpr\",\"design\\/banner\",\"design\\/layout\",\"design\\/seo_url\",\"design\\/theme\",\"design\\/translation\",\"error\\/exception\",\"event\\/modification\",\"extension\\/analytics\",\"extension\\/captcha\",\"extension\\/currency\",\"extension\\/dashboard\",\"extension\\/feed\",\"extension\\/fraud\",\"extension\\/language\",\"extension\\/marketplace\",\"extension\\/module\",\"extension\\/other\",\"extension\\/payment\",\"extension\\/report\",\"extension\\/shipping\",\"extension\\/theme\",\"extension\\/total\",\"localisation\\/address_format\",\"localisation\\/country\",\"localisation\\/currency\",\"localisation\\/geo_zone\",\"localisation\\/language\",\"localisation\\/length_class\",\"localisation\\/location\",\"localisation\\/order_status\",\"localisation\\/return_action\",\"localisation\\/return_reason\",\"localisation\\/return_status\",\"localisation\\/stock_status\",\"localisation\\/subscription_status\",\"localisation\\/tax_class\",\"localisation\\/tax_rate\",\"localisation\\/weight_class\",\"localisation\\/zone\",\"mail\\/affiliate\",\"mail\\/authorize\",\"mail\\/customer\",\"mail\\/forgotten\",\"mail\\/gdpr\",\"mail\\/returns\",\"mail\\/reward\",\"mail\\/subscription\",\"mail\\/transaction\",\"marketing\\/affiliate\",\"marketing\\/contact\",\"marketing\\/coupon\",\"marketing\\/marketing\",\"marketplace\\/api\",\"marketplace\\/cron\",\"marketplace\\/event\",\"marketplace\\/extension\",\"marketplace\\/installer\",\"marketplace\\/marketplace\",\"marketplace\\/modification\",\"marketplace\\/promotion\",\"marketplace\\/startup\",\"report\\/online\",\"report\\/report\",\"report\\/statistics\",\"sale\\/order\",\"sale\\/returns\",\"sale\\/subscription\",\"setting\\/setting\",\"setting\\/store\",\"tool\\/backup\",\"tool\\/log\",\"tool\\/notification\",\"tool\\/upgrade\",\"tool\\/upload\",\"user\\/api\",\"user\\/profile\",\"user\\/user\",\"user\\/user_permission\",\"extension\\/opencart\\/api\\/coupon\",\"extension\\/opencart\\/api\\/reward\",\"extension\\/opencart\\/captcha\\/basic\",\"extension\\/opencart\\/currency\\/ecb\",\"extension\\/opencart\\/currency\\/fixer\",\"extension\\/opencart\\/dashboard\\/activity\",\"extension\\/opencart\\/dashboard\\/chart\",\"extension\\/opencart\\/dashboard\\/customer\",\"extension\\/opencart\\/dashboard\\/map\",\"extension\\/opencart\\/dashboard\\/online\",\"extension\\/opencart\\/dashboard\\/order\",\"extension\\/opencart\\/dashboard\\/recent\",\"extension\\/opencart\\/dashboard\\/sale\",\"extension\\/opencart\\/fraud\\/ddos\",\"extension\\/opencart\\/fraud\\/ip\",\"extension\\/opencart\\/module\\/account\",\"extension\\/opencart\\/module\\/banner\",\"extension\\/opencart\\/module\\/bestseller\",\"extension\\/opencart\\/module\\/blog\",\"extension\\/opencart\\/module\\/category\",\"extension\\/opencart\\/module\\/featured\",\"extension\\/opencart\\/module\\/filter\",\"extension\\/opencart\\/module\\/html\",\"extension\\/opencart\\/module\\/information\",\"extension\\/opencart\\/module\\/latest\",\"extension\\/opencart\\/module\\/special\",\"extension\\/opencart\\/module\\/store\",\"extension\\/opencart\\/module\\/topic\",\"extension\\/opencart\\/payment\\/bank_transfer\",\"extension\\/opencart\\/payment\\/cheque\",\"extension\\/opencart\\/payment\\/cod\",\"extension\\/opencart\\/payment\\/free_checkout\",\"extension\\/opencart\\/report\\/customer\",\"extension\\/opencart\\/report\\/customer_activity\",\"extension\\/opencart\\/report\\/customer_order\",\"extension\\/opencart\\/report\\/customer_reward\",\"extension\\/opencart\\/report\\/customer_search\",\"extension\\/opencart\\/report\\/customer_transaction\",\"extension\\/opencart\\/report\\/marketing\",\"extension\\/opencart\\/report\\/product_purchased\",\"extension\\/opencart\\/report\\/product_viewed\",\"extension\\/opencart\\/report\\/sale_coupon\",\"extension\\/opencart\\/report\\/sale_order\",\"extension\\/opencart\\/report\\/sale_return\",\"extension\\/opencart\\/report\\/sale_shipping\",\"extension\\/opencart\\/report\\/sale_tax\",\"extension\\/opencart\\/report\\/subscription\",\"extension\\/opencart\\/shipping\\/flat\",\"extension\\/opencart\\/shipping\\/free\",\"extension\\/opencart\\/shipping\\/item\",\"extension\\/opencart\\/shipping\\/pickup\",\"extension\\/opencart\\/shipping\\/weight\",\"extension\\/opencart\\/theme\\/basic\",\"extension\\/opencart\\/total\\/coupon\",\"extension\\/opencart\\/total\\/credit\",\"extension\\/opencart\\/total\\/handling\",\"extension\\/opencart\\/total\\/low_order_fee\",\"extension\\/opencart\\/total\\/reward\",\"extension\\/opencart\\/total\\/shipping\",\"extension\\/opencart\\/total\\/sub_total\",\"extension\\/opencart\\/total\\/tax\",\"extension\\/opencart\\/total\\/total\"],\"modify\":[\"catalog\\/attribute\",\"catalog\\/attribute_group\",\"catalog\\/category\",\"catalog\\/download\",\"catalog\\/filter\",\"catalog\\/filter_group\",\"catalog\\/identifier\",\"catalog\\/information\",\"catalog\\/manufacturer\",\"catalog\\/option\",\"catalog\\/product\",\"catalog\\/review\",\"catalog\\/subscription_plan\",\"cms\\/antispam\",\"cms\\/article\",\"cms\\/comment\",\"cms\\/topic\",\"common\\/developer\",\"common\\/filemanager\",\"common\\/security\",\"customer\\/address\",\"customer\\/custom_field\",\"customer\\/customer\",\"customer\\/customer_approval\",\"customer\\/customer_group\",\"customer\\/gdpr\",\"design\\/banner\",\"design\\/layout\",\"design\\/seo_url\",\"design\\/theme\",\"design\\/translation\",\"error\\/exception\",\"event\\/modification\",\"extension\\/analytics\",\"extension\\/captcha\",\"extension\\/currency\",\"extension\\/dashboard\",\"extension\\/feed\",\"extension\\/fraud\",\"extension\\/language\",\"extension\\/marketplace\",\"extension\\/module\",\"extension\\/other\",\"extension\\/payment\",\"extension\\/report\",\"extension\\/shipping\",\"extension\\/theme\",\"extension\\/total\",\"localisation\\/address_format\",\"localisation\\/country\",\"localisation\\/currency\",\"localisation\\/geo_zone\",\"localisation\\/language\",\"localisation\\/length_class\",\"localisation\\/location\",\"localisation\\/order_status\",\"localisation\\/return_action\",\"localisation\\/return_reason\",\"localisation\\/return_status\",\"localisation\\/stock_status\",\"localisation\\/subscription_status\",\"localisation\\/tax_class\",\"localisation\\/tax_rate\",\"localisation\\/weight_class\",\"localisation\\/zone\",\"mail\\/affiliate\",\"mail\\/authorize\",\"mail\\/customer\",\"mail\\/forgotten\",\"mail\\/gdpr\",\"mail\\/returns\",\"mail\\/reward\",\"mail\\/subscription\",\"mail\\/transaction\",\"marketing\\/affiliate\",\"marketing\\/contact\",\"marketing\\/coupon\",\"marketing\\/marketing\",\"marketplace\\/api\",\"marketplace\\/cron\",\"marketplace\\/event\",\"marketplace\\/extension\",\"marketplace\\/installer\",\"marketplace\\/marketplace\",\"marketplace\\/modification\",\"marketplace\\/promotion\",\"marketplace\\/startup\",\"report\\/online\",\"report\\/report\",\"report\\/statistics\",\"sale\\/order\",\"sale\\/returns\",\"sale\\/subscription\",\"setting\\/setting\",\"setting\\/store\",\"tool\\/backup\",\"tool\\/log\",\"tool\\/notification\",\"tool\\/upgrade\",\"tool\\/upload\",\"user\\/api\",\"user\\/profile\",\"user\\/user\",\"user\\/user_permission\",\"extension\\/opencart\\/api\\/coupon\",\"extension\\/opencart\\/api\\/reward\",\"extension\\/opencart\\/captcha\\/basic\",\"extension\\/opencart\\/currency\\/ecb\",\"extension\\/opencart\\/currency\\/fixer\",\"extension\\/opencart\\/dashboard\\/activity\",\"extension\\/opencart\\/dashboard\\/chart\",\"extension\\/opencart\\/dashboard\\/customer\",\"extension\\/opencart\\/dashboard\\/map\",\"extension\\/opencart\\/dashboard\\/online\",\"extension\\/opencart\\/dashboard\\/order\",\"extension\\/opencart\\/dashboard\\/recent\",\"extension\\/opencart\\/dashboard\\/sale\",\"extension\\/opencart\\/fraud\\/ddos\",\"extension\\/opencart\\/fraud\\/ip\",\"extension\\/opencart\\/module\\/account\",\"extension\\/opencart\\/module\\/banner\",\"extension\\/opencart\\/module\\/bestseller\",\"extension\\/opencart\\/module\\/blog\",\"extension\\/opencart\\/module\\/category\",\"extension\\/opencart\\/module\\/featured\",\"extension\\/opencart\\/module\\/filter\",\"extension\\/opencart\\/module\\/html\",\"extension\\/opencart\\/module\\/information\",\"extension\\/opencart\\/module\\/latest\",\"extension\\/opencart\\/module\\/special\",\"extension\\/opencart\\/module\\/store\",\"extension\\/opencart\\/module\\/topic\",\"extension\\/opencart\\/payment\\/bank_transfer\",\"extension\\/opencart\\/payment\\/cheque\",\"extension\\/opencart\\/payment\\/cod\",\"extension\\/opencart\\/payment\\/free_checkout\",\"extension\\/opencart\\/report\\/customer\",\"extension\\/opencart\\/report\\/customer_activity\",\"extension\\/opencart\\/report\\/customer_order\",\"extension\\/opencart\\/report\\/customer_reward\",\"extension\\/opencart\\/report\\/customer_search\",\"extension\\/opencart\\/report\\/customer_transaction\",\"extension\\/opencart\\/report\\/marketing\",\"extension\\/opencart\\/report\\/product_purchased\",\"extension\\/opencart\\/report\\/product_viewed\",\"extension\\/opencart\\/report\\/sale_coupon\",\"extension\\/opencart\\/report\\/sale_order\",\"extension\\/opencart\\/report\\/sale_return\",\"extension\\/opencart\\/report\\/sale_shipping\",\"extension\\/opencart\\/report\\/sale_tax\",\"extension\\/opencart\\/report\\/subscription\",\"extension\\/opencart\\/shipping\\/flat\",\"extension\\/opencart\\/shipping\\/free\",\"extension\\/opencart\\/shipping\\/item\",\"extension\\/opencart\\/shipping\\/pickup\",\"extension\\/opencart\\/shipping\\/weight\",\"extension\\/opencart\\/theme\\/basic\",\"extension\\/opencart\\/total\\/coupon\",\"extension\\/opencart\\/total\\/credit\",\"extension\\/opencart\\/total\\/handling\",\"extension\\/opencart\\/total\\/low_order_fee\",\"extension\\/opencart\\/total\\/reward\",\"extension\\/opencart\\/total\\/shipping\",\"extension\\/opencart\\/total\\/sub_total\",\"extension\\/opencart\\/total\\/tax\",\"extension\\/opencart\\/total\\/total\"]}'),
        (2, 'Demonstration', ''),
        (3, 'Marketing', ''),
        (4, 'Product Data Entry', ''),
