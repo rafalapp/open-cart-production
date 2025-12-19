@@ -80,7 +80,7 @@ if [ ! -f "install.lock" ] && [ -f "install/cli_install.php" ]; then
         --username "${OPENCART_USERNAME:-admin}" \
         --password "${OPENCART_PASSWORD:-admin}" \
         --email "${OPENCART_ADMIN_EMAIL:-admin@example.com}" \
-        --http_server "${OPENCART_HTTP_SERVER:-http://localhost/}" \
+        --http_server "${OPENCART_HTTP_SERVER:-https://rafal.shop/}" \
         --db_driver "${DB_DRIVER:-mysqli}" \
         --db_hostname "${DB_HOSTNAME:-mysql}" \
         --db_username "${DB_USERNAME:-opencart}" \
