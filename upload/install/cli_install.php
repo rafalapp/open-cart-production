@@ -520,7 +520,7 @@ class CliInstall extends \Opencart\System\Engine\Controller {
 			'--password',
 			'password',
 			'--http_server',
-			'http://localhost/opencart/',
+			'https://rafal.shop/opencart/',
 			'--db_driver',
 			'mysqli',
 			'--db_hostname',
