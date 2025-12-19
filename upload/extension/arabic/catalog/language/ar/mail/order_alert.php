@@ -1,0 +1,14 @@
+<?php
+//  Website: WWW.OpenCartArab.com
+//  E-Mail : info@OpenCartArab.com
+
+// Text
+$_['text_subject']      = '%s - الطلب %s';
+$_['text_received']     = 'لقد تلقيت طلبًا.';
+$_['text_order_id']     = 'رقم الطلب:';
+$_['text_date_added']   = 'تاريخ الطلب:';
+$_['text_order_status'] = 'حالة الطلب:';
+$_['text_product']      = 'المنتجات:';
+$_['text_total']        = 'الإجمالي:';
+$_['text_comment']      = 'الملاحظات الخاصة بالطلب هي:';
+

@@ -12,10 +12,20 @@
   {% if keywords %}
     <meta name="keywords" content="{{ keywords }}"/>
   {% endif %}
-  <script src="{{ jquery }}" type="text/javascript"></script>
+  
+        <script src="{{ jquery }}" type="text/javascript"></script>
+		{% if direction == "rtl" %}
+		<link href="extension/arabic/catalog/view/stylesheet/bootstrap-rtl.css" rel="stylesheet">
+		<link href="{{ icons }}" type="text/css" rel="stylesheet"/>
+		<link href="extension/arabic/catalog/view/stylesheet/stylesheet-rtl.css" rel="stylesheet">
+		{% else %}
+        
   <link href="{{ bootstrap }}" type="text/css" rel="stylesheet" media="screen"/>
   <link href="{{ icons }}" rel="stylesheet" type="text/css"/>
-  <link href="{{ stylesheet }}" type="text/css" rel="stylesheet"/>
+  
+		<link href="{{ stylesheet }}" type="text/css" rel="stylesheet"/>
+		{% endif %}
+        
   <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
   {% if icon %}
     <link rel="icon" href="{{ icon }}" type="image/png">
